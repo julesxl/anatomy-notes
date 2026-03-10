@@ -1,0 +1,303 @@
+:root{
+  --bg:#ffffff;
+  --card:#ffffff;
+  --ink:#000000;
+  --muted:#000000;
+  --line:#cccccc;
+  --accent:#000000;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:24px;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.35;
+}
+
+.wrap{
+  max-width:1100px;
+  margin:0 auto;
+}
+
+h1{
+  margin:0 0 6px 0;
+  font-size:22px;
+}
+
+h2{
+  margin:0 0 10px 0;
+  font-size:18px;
+}
+
+.sub{
+  margin:0 0 18px 0;
+  color:var(--muted);
+}
+
+section{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:16px;
+  margin:14px 0;
+}
+
+details{
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:10px 12px;
+  margin:10px 0;
+  background:rgba(255,255,255,0.02);
+}
+
+details details{
+  background:rgba(255,255,255,0.015);
+}
+
+summary{
+  cursor:pointer;
+  font-weight:650;
+  list-style:none;
+  outline:none;
+}
+
+summary::-webkit-details-marker{
+  display:none;
+}
+
+summary::before{
+  content:"▸";
+  display:inline-block;
+  margin-right:10px;
+  color:var(--accent);
+  transform:translateY(-1px);
+}
+
+details[open] > summary::before{
+  content:"▾";
+}
+
+ul{
+  margin:8px 0 0 22px;
+}
+
+ol{
+  margin:8px 0 0 22px;
+}
+
+li{
+  margin:4px 0;
+}
+
+.note{
+  color:var(--muted);
+  margin:8px 0 0 0;
+}
+
+.tag{
+  display:inline-block;
+  font-size:12px;
+  padding:2px 8px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--muted);
+  margin-left:8px;
+}
+
+/* Toolbar */
+.toolbar{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:14px 0 18px 0;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:var(--bg);
+  padding:10px 0;
+  border-bottom:1px solid var(--line);
+}
+
+button{
+  background:var(--card);
+  color:var(--ink);
+  border:1px solid var(--line);
+  padding:8px 12px;
+  border-radius:10px;
+  cursor:pointer;
+  font:inherit;
+}
+
+button:hover{
+  border-color:var(--accent);
+}
+
+.active-mode{
+  font-weight:700;
+  border-color:var(--accent);
+}
+
+/* Tabs */
+.tabbar{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-start;
+  max-width:980px;
+  margin:0 auto 12px auto;
+}
+
+.tabbar button{
+  border-radius:999px;
+}
+
+.tabbar button.active-tab{
+  font-weight:800;
+  border-color:var(--accent);
+}
+
+.tab-panel{
+  display:none;
+  max-width:980px;
+  margin:0 auto;
+}
+
+.tab-panel.active{
+  display:block;
+}
+
+/* Flashcards */
+.fc-term{
+  appearance:none;
+  outline:none;
+  font:inherit;
+  font-weight:700;
+  padding:0;
+  border:0;
+  background:transparent;
+  color:var(--ink);
+  cursor:pointer;
+  text-align:left;
+  box-shadow:none;
+  border-radius:0;
+}
+
+.fc-term:hover{
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+.fc-term:focus{
+  outline:none;
+}
+
+.fc-term:focus-visible{
+  outline:none;
+  box-shadow:none;
+  border-radius:0;
+}
+
+.fc-def{
+  display:inline;
+}
+
+.fc-hidden .fc-def{
+  display:none;
+}
+
+.fc-card{
+  position:relative;
+}
+
+.study-mode .fc-card:not(.fc-revealed) .fc-def{
+  display:none;
+}
+
+/* Tables + images */
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:0.5rem 0 0.75rem;
+  font-size:0.95em;
+}
+
+th,
+td{
+  border:1px solid #cfcfcf;
+  padding:0.35rem 0.5rem;
+  vertical-align:top;
+  text-align:left;
+}
+
+th{
+  background:#f3f3f3;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+  border-radius:12px;
+  border:1px solid var(--line);
+  display:block;
+  margin:0.6rem 0;
+}
+
+.panel-figure{
+  margin:0.75rem 0 1rem 0;
+}
+
+.panel-figure img{
+  width:100%;
+}
+
+@media (max-width:700px){
+  body{
+    padding:14px;
+  }
+
+  .toolbar{
+    top:0;
+    padding:8px 0;
+  }
+
+  button{
+    width:auto;
+  }
+}
+
+@media print{
+  body{
+    background:#fff;
+    color:#000;
+    padding:0;
+  }
+
+  section,
+  details{
+    background:#fff;
+    border-color:#ccc;
+  }
+
+  .toolbar,
+  .tabbar{
+    display:none !important;
+  }
+
+  summary::before{
+    color:#000;
+  }
+
+  .note{
+    color:#333;
+  }
+}
