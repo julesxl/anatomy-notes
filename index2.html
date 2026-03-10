@@ -1,1 +1,1658 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Anatomy Notes – Vitals + Skeletal + Muscular + Heart + Blood</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="wrap">
+<div class="tabbar" role="tablist" aria-label="Notes tabs">
+  <button type="button" data-tab="vitals" class="active-tab" role="tab">Vitals</button>
+  <button type="button" data-tab="skeletal" role="tab">Skeletal</button>
+  <button type="button" data-tab="muscular" role="tab">Muscular</button>
+  <button type="button" data-tab="heart" role="tab">Heart</button>
+  <button type="button" data-tab="blood" role="tab">Blood</button>
+</div>
+
+<div id="panel-vitals" class="tab-panel active" role="tabpanel" aria-label="Vitals notes">
+  <div class="toolbar">
+    <button type="button" onclick="toggleAll('vitals', true)">Expand all</button>
+    <button type="button" onclick="toggleAll('vitals', false)">Collapse all</button>
+    <button id="studyToggle-vitals" type="button">Study mode</button>
+  </div>
+
+  <h1>Vitals – Ranges → What abnormal means → What to do next</h1>
+
+  <section>
+    <h2>Age bands + adult anchors</h2>
+    <details>
+      <summary>Age bands used throughout</summary>
+      <ul>
+        <li><b>Neonate</b>: 0–28 days</li>
+        <li><b>Infant</b>: 1–12 months</li>
+        <li><b>Toddler</b>: 1–2 years</li>
+        <li><b>Preschool</b>: 3–5 years</li>
+        <li><b>School-age</b>: 6–11 years</li>
+        <li><b>Adolescent</b>: 12–16 years</li>
+        <li><b>Adult</b>: 16–60 years</li>
+        <li><b>Older adult</b>: &gt;60 years</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Adult “anchor normals” (clinic + exam)</summary>
+      <ul>
+        <li><b>Heart rate (HR)</b>: 60–100 / min</li>
+        <li><b>Respiratory rate (RR)</b>: 12–20 / min</li>
+        <li><b>Temperature (oral)</b>: ~37 °C / 98.6 °F</li>
+        <li><b>SpO₂</b>: typically ≥ 95% in healthy adults (targets can vary with disease)</li>
+      </ul>
+
+      <details>
+        <summary>Temperature site differences (quick)</summary>
+        <ul>
+          <li><b>Rectal</b>: ~0.4–0.5 °C higher (~0.7–0.9 °F higher)</li>
+          <li><b>Axillary</b>: ~1 °C lower (~1.8 °F lower) and slower to equilibrate</li>
+          <li><b>Tympanic/temporal</b>: approximates core if technique is correct</li>
+        </ul>
+      </details>
+    </details>
+  </section>
+
+  <section>
+    <h2>1) Heart rate (HR)</h2>
+    <details>
+      <summary>Normal + definitions</summary>
+      <ul>
+        <li><b>Normal HR</b>: varies by age band; adolescents/adults usually 60–100 / min at rest.</li>
+        <li><b>Tachycardia</b>: HR above normal for age.</li>
+        <li><b>Bradycardia</b>: HR below normal for age.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>When “fast” or “slow” can be normal (context matters)</summary>
+      <ul>
+        <li><b>Physiologic tachycardia</b>: exercise, fever, pain, anxiety, dehydration, standing up quickly, pregnancy, stimulants (including caffeine).</li>
+        <li><b>Physiologic bradycardia</b>: sleep, high fitness baseline (athletes), strong resting vagal tone, relaxation/meditation.</li>
+        <li class="note"><b>Rule of thumb</b>: if the patient looks well and vitals normalize with rest, it often reflects context; if symptoms/red flags are present, treat it as abnormal until proven otherwise.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Pulse sites (head → toe) + when to use each</summary>
+      <ul>
+        <li><b>Temporal</b>: temple; useful in infants/children when radial is hard to find.</li>
+        <li><b>Carotid</b>: neck; reliable in low perfusion (use one side at a time).</li>
+        <li><b>Apical pulse</b>: auscultate at 5th ICS midclavicular line; best when rhythm is irregular or peripheral pulses are weak.</li>
+        <li><b>Brachial</b>: medial upper arm/antecubital; common for infant pulse and for BP cuff placement landmarking.</li>
+        <li><b>Radial</b>: thumb side of wrist; most common routine adult pulse.</li>
+        <li><b>Femoral</b>: groin; strong central pulse (shock/low perfusion assessment).</li>
+        <li><b>Popliteal</b>: behind knee; useful when assessing leg circulation.</li>
+        <li><b>Posterior tibial</b>: behind medial malleolus; lower-extremity perfusion checks.</li>
+        <li><b>Dorsalis pedis</b>: dorsum of foot; distal perfusion checks (may be absent in some healthy people).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Tachycardia (above normal)</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>Pain</b>, <b>fever</b>, <b>anxiety</b></li>
+          <li><b>Dehydration / hypovolemia</b></li>
+          <li><b>Stimulants</b> (caffeine, certain meds)</li>
+          <li><b>Anemia</b></li>
+          <li><b>Thyroid excess</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags</summary>
+        <ul>
+          <li><b>Chest pain (angina)</b>: ischemic chest discomfort from reduced coronary blood flow.</li>
+          <li><b>Shortness of breath</b></li>
+          <li><b>Altered mental status</b> (confusion, lethargy)</li>
+          <li><b>Hypotension</b></li>
+          <li><b>SpO₂</b> low (especially &lt;92–94%)</li>
+          <li><b>Palpitations that won’t stop</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Recheck</b> after a short rest; verify technique.</li>
+          <li><b>Position</b> comfortably; cool/quiet room.</li>
+          <li><b>Hydrate</b> if appropriate (and not NPO).</li>
+          <li><b>Check SpO₂</b>; apply oxygen per protocol if hypoxic; escalate if red flags.</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>Bradycardia (below normal)</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>High fitness baseline</b></li>
+          <li><b>Sleep</b> (physiologic bradycardia)</li>
+          <li><b>Vagal response</b> (vomiting, pain)</li>
+          <li><b>Medications</b> (e.g., β-blockers)</li>
+          <li><b>Hypoxia</b>, <b>hypothermia</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags</summary>
+        <ul>
+          <li><b>Dizziness / syncope</b></li>
+          <li><b>Altered mental status</b></li>
+          <li><b>Hypotension</b></li>
+          <li><b>Chest pain (angina)</b>: ischemic chest discomfort from reduced coronary blood flow.</li>
+          <li><b>Very slow pulse</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Supine</b> (lay flat) if symptomatic; warm if cold.</li>
+          <li><b>Check BP + SpO₂</b>; apply oxygen per protocol if hypoxic.</li>
+          <li><b>Escalate</b> if red flags present.</li>
+        </ul>
+      </details>
+    </details>
+<h2>2) Respiratory rate (RR) + Work of Breathing (WOB)</h2>
+
+    <details>
+      <summary>Normal + definitions</summary>
+      <ul>
+        <li><b>Normal RR</b>: varies by age; adults usually 12–20 / min at rest.</li>
+        <li><b>Tachypnea</b>: RR above normal for age.</li>
+        <li><b>Bradypnea</b>: RR below normal for age.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>When fast or slow breathing can be normal (context matters)</summary>
+      <ul>
+        <li><b>Physiologic tachypnea</b>: exercise, fever, anxiety/panic, pain, high altitude.</li>
+        <li><b>Physiologic bradypnea</b>: sleep (especially deep sleep), high fitness baseline at rest.</li>
+        <li class="note"><b>Key idea</b>: WOB (effort) and SpO₂ often matter more than the number alone.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Tachypnea (above normal)</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>Hypoxemia</b></li>
+          <li><b>Acidosis</b>: metabolic (↓HCO₃⁻) or respiratory (↑PaCO₂)</li>
+          <li><b>Fever</b>, <b>pain/anxiety</b></li>
+          <li><b>Asthma/COPD</b></li>
+          <li><b>PE</b> (pulmonary embolism)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags</summary>
+        <ul>
+          <li><b>SpO₂</b> &lt; 92%</li>
+          <li><b>Retractions</b>, <b>nasal flaring</b>, <b>cyanosis</b></li>
+          <li><b>“Silent chest”</b> (severe obstruction)</li>
+          <li><b>Altered mental status</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Position upright</b>; loosen tight clothing.</li>
+          <li><b>Coach slow breathing</b> if anxiety-driven.</li>
+          <li><b>Suction</b> if trained and policy allows (copious secretions).</li>
+          <li><b>O₂</b> per device ladder/standing order; <b>recheck</b> in 2–3 minutes; escalate for red flags.</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>Bradypnea (below normal)</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>Opioids/sedatives</b></li>
+          <li><b>Head injury</b></li>
+          <li><b>Severe hypothyroid</b></li>
+          <li><b>Hypothermia</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags</summary>
+        <ul>
+          <li><b>Slow + shallow breathing</b></li>
+          <li><b>Somnolence</b> (hypercapnia = high CO₂)</li>
+          <li><b>SpO₂</b> dropping</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Stimulate</b>; reposition airway; apply <b>O₂</b> per protocol.</li>
+          <li><b>Escalate</b> promptly if ventilation is inadequate.</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>WOB (Work of Breathing) visual triad</summary>
+      <ol>
+        <li><b>Accessory muscle use</b>: SCM/scalenes/intercostals firing = extra effort.</li>
+        <li><b>Retractions</b>: inward skin pull (intercostal, suprasternal, subcostal) from strong negative pressure.</li>
+        <li><b>Nasal flaring</b>: nares widen to reduce airway resistance (common in infants/children).</li>
+      </ol>
+      <div class="note"><b>Meaning</b>: increased effort → fatigue risk → escalate early if worsening.</div>
+    </details>
+
+    <details>
+      <summary>Pulmonary volumes + capacities (definitions + relationships)</summary>
+      <ul>
+        <li><b>Tidal volume (TV)</b>: air moved in a normal quiet breath.</li>
+        <li><b>Inspiratory reserve volume (IRV)</b>: extra air you can inhale after a normal inspiration.</li>
+        <li><b>Expiratory reserve volume (ERV)</b>: extra air you can exhale after a normal expiration.</li>
+        <li><b>Residual volume (RV)</b>: air left after maximal exhalation (prevents alveolar collapse).</li>
+        <li><b>Inspiratory capacity (IC)</b>: maximal inhale after a normal exhale = <b>TV + IRV</b>.</li>
+        <li><b>Functional residual capacity (FRC)</b>: air left after a normal exhale = <b>ERV + RV</b>.</li>
+        <li><b>Vital capacity (VC)</b>: maximal exhale after maximal inhale = <b>IRV + TV + ERV</b>.</li>
+        <li><b>Total lung capacity (TLC)</b>: total air in lungs after maximal inhale = <b>VC + RV</b>.</li>
+        <li><b>Minute ventilation (V̇E)</b>: air moved per minute = <b>RR × TV</b>.</li>
+        <li><b>Alveolar ventilation (V̇A)</b>: fresh air reaching gas exchange = <b>RR × (TV − dead space)</b>.</li>
+      
+        <li><b>Capacity relationships (rebuild the chart)</b>:
+          <ul>
+            <li><b>IC = TV + IRV</b></li>
+            <li><b>FRC = ERV + RV</b></li>
+            <li><b>VC = TV + IRV + ERV</b></li>
+            <li><b>TLC = TV + IRV + ERV + RV</b></li>
+          </ul>
+        </li>
+
+      </ul>
+    </details>
+<h2>3) Blood pressure (BP)</h2>
+
+    <details>
+      <summary>Adult BP categories (numbers)</summary>
+      <div class="note">Use office policy if it differs. Numbers below are the common adult clinic categories.</div>
+      <table>
+        <tr><th>Category</th><th>Systolic (mmHg)</th><th>Diastolic (mmHg)</th></tr>
+        <tr><td><b>Normal</b></td><td>&lt;120</td><td>and &lt;80</td></tr>
+        <tr><td><b>Elevated</b></td><td>120–129</td><td>and &lt;80</td></tr>
+        <tr><td><b>Hypertension (Stage 1)</b></td><td>130–139</td><td>or 80–89</td></tr>
+        <tr><td><b>Hypertension (Stage 2)</b></td><td>≥140</td><td>or ≥90</td></tr>
+        <tr><td><b>Hypertensive crisis</b></td><td>≥180</td><td>and/or ≥120</td></tr>
+      </table>
+      <div class="note"><b>Reading rule</b>: if systolic and diastolic fall in different categories, use the <b>higher</b> category.</div>
+    </details>
+
+    <details>
+      <summary>Special patterns: white coat, masked (hidden), nocturnal hypertension</summary>
+      <ul>
+        <li><b>White coat hypertension</b>: clinic BP <b>≥140/90</b> with normal home/ambulatory readings (commonly <b>daytime &lt;135/85</b>). Often due to conditioned anxiety in medical settings.</li>
+        <li><b>Masked (hidden) hypertension</b>: clinic BP <b>&lt;140/90</b> but elevated home/ambulatory BP (commonly <b>daytime ≥135/85</b>). Higher risk because it is missed without out‑of‑office readings.</li>
+        <li><b>Nocturnal hypertension</b>: abnormal nighttime BP pattern. Normally BP “dips” during sleep.
+          <ul>
+            <li><b>Non‑dipping</b>: nighttime fall <b>&lt;10%</b> of daytime BP</li>
+            <li><b>Rising</b>: nighttime BP increases instead of falling</li>
+            <li><b>Extreme dipping</b>: nighttime fall <b>&gt;20%</b> of daytime BP</li>
+          </ul>
+          Identified with <b>24‑hour ambulatory BP monitoring</b>.
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Hypertension (above normal)</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>Pain/anxiety</b>, <b>caffeine/stimulants</b></li>
+          <li><b>Renal/endocrine disease</b></li>
+          <li><b>Chronic hypertension</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags</summary>
+        <ul>
+          <li>Very high BP with <b>chest pain (angina)</b>: ischemic chest discomfort from reduced coronary blood flow (can precede ACS/MI).</li>
+          <li><b>Headache/neurologic deficit</b> (possible stroke)</li>
+          <li><b>Shortness of breath</b> (possible pulmonary edema)</li>
+          <li><b>Confusion</b>, <b>vision changes</b>, or <b>seizure</b> with severe hypertension</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Repeat</b> after 5–10 minutes rest using correct technique (correct cuff size, feet flat, arm at heart level).</li>
+          <li><b>Remove stimulants</b> (caffeine/nicotine) if recent; minimize talking.</li>
+          <li><b>Report</b> immediately if red flags or crisis range; otherwise document and follow office instructions.</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>Hypotension (below normal)</summary>
+      <ul>
+        <li><b>Common adult threshold</b>: systolic &lt; 90 mmHg (context matters; baseline and symptoms are key).</li>
+        <li><b>Why</b>: dehydration, bleeding, medications, MI, arrhythmia, sepsis.</li>
+        <li><b>Red flags</b>: dizziness/weakness, altered mental status, cold/clammy skin, <b>MAP</b> &lt; 65 (if available).</li>
+        <li><b>Do next</b>: lay supine, elevate legs if tolerated, check glucose per protocol, give O₂ if hypoxic, escalate per office/EMS.</li>
+      </ul>
+    </details>
+<h2>4) Temperature</h2>
+
+    <details>
+      <summary>Sites (most accurate → least accurate in typical clinic use)</summary>
+      <ol>
+        <li><b>Rectal</b>: best “core” estimate; higher than oral by ~0.4–0.5 °C (0.7–0.9 °F).</li>
+        <li><b>Tympanic</b>: approximates core if technique is correct (aim at tympanic membrane).</li>
+        <li><b>Oral</b>: good standard if patient can close mouth and hasn’t had hot/cold liquids recently.</li>
+        <li><b>Temporal</b>: quick screening; technique-dependent.</li>
+        <li><b>Axillary</b>: slowest and often lowest; least accurate for decision-making.</li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>Key definitions + cutoffs (numbers)</summary>
+      <ul>
+        <li><b>Normothermia</b>: ~36.5–37.5 °C (97.7–99.5 °F) depending on site/time of day.</li>
+        <li><b>Pyrexia (fever)</b>: ≥ 38.0 °C (100.4 °F).</li>
+        <li><b>Hyperpyrexia</b>: ≥ 41.1 °C (≈106.0 °F) (dangerously high; treat as emergency).</li>
+        <li><b>Hypothermia</b>: &lt; 35.0 °C (95.0 °F).</li>
+        <li class="note"><b>Fever vs hyperthermia</b>: fever = set-point reset; hyperthermia = failed heat loss (heat illness) without set-point reset.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Pyrexia (fever): what it suggests + what to do next</summary>
+      <details>
+        <summary>Common causes</summary>
+        <ul>
+          <li><b>Infection/inflammation</b> (most common)</li>
+          <li><b>Medication reaction</b> (less common; think timing + new meds)</li>
+          <li><b>Heat illness</b> if hot environment/exertion (more consistent with hyperthermia)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Red flags (escalate)</summary>
+        <ul>
+          <li><b>Infant &lt; 3 months</b> with ≥ 38.0 °C (100.4 °F)</li>
+          <li>Persistent very high temp (e.g., ≥ 40.5 °C / 104.9 °F) or toxic appearance</li>
+          <li><b>Stiff neck</b>, <b>petechiae</b>, <b>altered mental status</b>, seizure</li>
+          <li>Immunocompromised, or signs of dehydration (poor intake, low urine output)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (MA practical)</summary>
+        <ul>
+          <li><b>Recheck</b> with correct technique/site; document site used.</li>
+          <li><b>Support</b>: fluids if appropriate, light clothing, comfort measures.</li>
+          <li><b>Antipyretic</b> only if ordered/policy allows; avoid overdosing/duplication.</li>
+          <li><b>Notify provider</b> for red flags or if fever is persistent/worsening.</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>Hyperpyrexia: emergency-high temperature</summary>
+      <ul>
+        <li><b>Definition</b>: ≥ 41.1 °C (≈106 °F).</li>
+        <li><b>Why it matters</b>: risk of CNS dysfunction, seizures, dehydration, organ stress.</li>
+        <li><b>Do next</b>: initiate <b>active cooling</b> per protocol (remove excess clothing, cool environment, cool packs where appropriate), check vitals/mental status frequently, and <b>escalate immediately</b> (provider/EMS per setting).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Hypothermia: low temperature</summary>
+      <details>
+        <summary>Definition + common causes</summary>
+        <ul>
+          <li><b>Definition</b>: &lt; 35.0 °C (95.0 °F).</li>
+          <li><b>Why</b>: exposure, sepsis, endocrine failure, medications/sedatives, intoxication.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (MA practical)</summary>
+        <ul>
+          <li><b>Confirm</b> with appropriate site (rectal preferred for core) and correct technique.</li>
+          <li><b>Warm</b>: remove wet clothing, warm blankets, warm environment; avoid rapid aggressive external heat directly on skin.</li>
+          <li><b>Monitor</b>: check glucose per protocol; watch for altered mental status and arrhythmia risk in significant hypothermia.</li>
+          <li><b>Escalate</b>: notify provider; call EMS if severe, altered, or very low temperature.</li>
+        </ul>
+      </details>
+    </details>
+<h2>5) Oxygen saturation (SpO₂) + oxygen devices (quick ladder)</h2>
+
+    <details>
+      <summary>SpO₂ targets + hypoxemia</summary>
+      <ul>
+        <li><b>Typical target</b>: ≥ 95% in healthy adults (may be lower targets in select conditions per orders).</li>
+        <li><b>Hypoxemia</b>: SpO₂ below target (low O₂ in arterial blood).</li>
+      </ul>
+
+      <details>
+        <summary>Common causes of low SpO₂</summary>
+        <ul>
+          <li><b>V/Q mismatch</b> (asthma, pneumonia)</li>
+          <li><b>Hypoventilation</b> (opioids)</li>
+          <li><b>PE</b>, <b>shunt</b>, <b>low FiO₂</b></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Do next (practical)</summary>
+        <ul>
+          <li><b>Reposition airway</b>; verify probe (warm finger, remove polish, minimize motion, try ear/forehead).</li>
+          <li><b>Device fit</b>: coach seal &amp; fit; reassess in a few minutes after changes.</li>
+          <li><b>Escalate</b> if not improving or if red flags (AMS, severe WOB, persistent low SpO₂).</li>
+        </ul>
+      </details>
+    </details>
+
+    <details>
+      <summary>Oxygen devices (definitions + when)</summary>
+
+      <details>
+        <summary>Blow-by (infants/toddlers)</summary>
+        <ul>
+          <li><b>Definition</b>: Oxygen held near the face for mask-intolerant kids; low/variable FiO₂; temporary bridge.</li>
+          <li><b>Use for</b>: mild hypoxemia while positioning/suctioning.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Nasal cannula (NC)</summary>
+        <ul>
+          <li><b>Adults</b>: ~1–6 L/min (often start 1–2).</li>
+          <li><b>Definition</b>: comfortable low-to-moderate FiO₂ delivery.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Simple face mask</summary>
+        <ul>
+          <li><b>Flow</b>: 6–10 L/min (keep ≥ 6 to reduce CO₂ rebreathing).</li>
+          <li><b>Use for</b>: step-up when more FiO₂ is needed and ventilation is adequate.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>NRB (non-rebreather)</summary>
+        <ul>
+          <li><b>Flow</b>: 10–15 L/min with reservoir bag inflated.</li>
+          <li><b>Use for</b>: moderate–severe hypoxemia while arranging next steps.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Venturi mask (adults)</summary>
+        <ul>
+          <li><b>Definition</b>: adapter delivers a fixed, precise FiO₂ (useful when exact titration is needed).</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>HFNC / CPAP / BiPAP / BVM (orientation)</summary>
+        <ul>
+          <li><b>HFNC</b>: high-flow heated humidified O₂; can add some PEEP; requires facility protocol/equipment.</li>
+          <li><b>CPAP/BiPAP</b>: non-invasive positive pressure; provider-directed; patient must protect airway.</li>
+          <li><b>BVM</b>: bag-valve-mask for inadequate ventilation; requires good seal and visible chest rise.</li>
+        </ul>
+      </details>
+
+      <p class="note"><b>Fast ladder</b>: position/coaching → blow-by (infants) → NC → simple mask → NRB or Venturi (precise) → HFNC (policy) → CPAP/BiPAP (provider) → BVM if ventilation inadequate.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Quick reference (combined)</h2>
+    <details>
+      <summary>ECG component quick table (timing + amplitude)</summary>
+      <table>
+        <thead>
+          <tr>
+            <th>ECG Component</th>
+            <th>Duration (seconds / boxes)</th>
+            <th>Amplitude (mm / boxes)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><b>P wave</b></td><td>0.08–0.10 s / ~2–2.5 boxes</td><td>&lt; 2.5 mm / &lt; 2.5 boxes</td></tr>
+          <tr><td><b>PR interval</b></td><td>0.12–0.20 s / ~3–5 boxes</td><td>N/A</td></tr>
+          <tr><td><b>QRS complex</b></td><td>0.06–0.10 s / ~1.5–2.5 boxes</td><td>~5–30 mm / ~5–30 boxes</td></tr>
+          <tr><td><b>QT interval</b></td><td>&lt; 0.44–0.46 s / up to ~11 boxes</td><td>N/A</td></tr>
+          <tr><td><b>T wave</b></td><td>N/A</td><td>&lt; 5 mm (limb), &lt; 10 mm (precordial)</td></tr>
+          <tr><td><b>ST segment</b></td><td>0.08–0.12 s / ~2–3 boxes</td><td>Isoelectric (≈ &lt; 1–2 boxes)</td></tr>
+          <tr><td><b>U wave</b></td><td>N/A</td><td>&lt; 1.5 mm / &lt; 1.5 boxes</td></tr>
+        </tbody>
+      </table>
+      <p class="note">This table is here because students always ask “what’s normal,” even when you’re teaching mechanism first.</p>
+    </details>
+  </section>
+
+</div>
+
+<div id="panel-skeletal" class="tab-panel" role="tabpanel" aria-label="Skeletal notes">
+      <div class="toolbar">
+        <button type="button" onclick="toggleAll('skeletal', true)">Expand all</button>
+        <button type="button" onclick="toggleAll('skeletal', false)">Collapse all</button>
+        <button id="studyToggle-skeletal" type="button">Study mode</button>
+      </div>
+      <h1>Skeletal System – Adult Bone Types + Bone Pathology</h1>
+
+  
+
+  <section>
+    <h2>Adult skeleton reorganized by bone type (the “206-by-shape” map)</h2>
+
+    <details>
+      <summary>1) Long bones (90 total)</summary>
+
+      <details>
+        <summary>Upper limb + girdle</summary>
+        <ul>
+          <li>Clavicle (2)</li>
+          <li>Humerus (2)</li>
+          <li>Radius (2)</li>
+          <li>Ulna (2)</li>
+          <li>Metacarpals I–V (10 total)</li>
+          <li>Hand phalanges (28 total)
+            <ul>
+              <li>Proximal (10)</li>
+              <li>Middle (8)</li>
+              <li>Distal (10)</li>
+            </ul>
+          </li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Lower limb</summary>
+        <ul>
+          <li>Femur (2)</li>
+          <li>Tibia (2)</li>
+          <li>Fibula (2)</li>
+          <li>Metatarsals I–V (10 total)</li>
+          <li>Foot phalanges (28 total)
+            <ul>
+              <li>Proximal (10)</li>
+              <li>Middle (8)</li>
+              <li>Distal (10)</li>
+            </ul>
+          </li>
+        </ul>
+      </details>
+
+      <p class="note">Learning hook: long bones = leverage + locomotion + big marrow spaces.</p>
+    </details>
+
+    <details>
+      <summary>2) Short bones (28 total)</summary>
+
+      <details>
+        <summary>Carpals (14 total, excluding pisiform—see sesamoid)</summary>
+        <ul>
+          <li>Scaphoid (2)</li>
+          <li>Lunate (2)</li>
+          <li>Triquetrum (2)</li>
+          <li>Trapezium (2)</li>
+          <li>Trapezoid (2)</li>
+          <li>Capitate (2)</li>
+          <li>Hamate (2)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Tarsals (14 total)</summary>
+        <ul>
+          <li>Calcaneus (2)</li>
+          <li>Talus (2)</li>
+          <li>Navicular (2)</li>
+          <li>Cuboid (2)</li>
+          <li>Medial cuneiform (2)</li>
+          <li>Intermediate cuneiform (2)</li>
+          <li>Lateral cuneiform (2)</li>
+        </ul>
+      </details>
+
+      <p class="note">Learning hook: short bones = stability + shock distribution + controlled glide.</p>
+    </details>
+
+    <details>
+      <summary>3) Flat bones (38 total)</summary>
+
+      <details>
+        <summary>Thorax</summary>
+        <ul>
+          <li>Ribs (24) (12 pairs)</li>
+          <li>Sternum (1)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Shoulder</summary>
+        <ul>
+          <li>Scapulae (2)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Skull (plate-like protection bones)</summary>
+        <ul>
+          <li>Frontal (1)</li>
+          <li>Parietal (2)</li>
+          <li>Occipital (1)</li>
+          <li>Temporal (2)</li>
+          <li>Nasal (2)</li>
+          <li>Lacrimal (2)</li>
+          <li>Vomer (1)</li>
+        </ul>
+      </details>
+
+      <p class="note">Learning hook: flat bones = protection + broad muscle attachment + marrow “real estate.”</p>
+    </details>
+
+    <details>
+      <summary>4) Irregular bones (46 total)</summary>
+
+      <details>
+        <summary>Vertebral column</summary>
+        <ul>
+          <li>C1–C7 (7)</li>
+          <li>T1–T12 (12)</li>
+          <li>L1–L5 (5)</li>
+          <li>Sacrum (5 Fused)</li>
+          <li>Coccyx (4 Fused)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Pelvis</summary>
+        <ul>
+          <li>Hip bones / os coxae (2) <span class="tag">fused compound bones</span></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Skull (complex base + face shapes)</summary>
+        <ul>
+          <li>Sphenoid (1)</li>
+          <li>Ethmoid (1)</li>
+          <li>Maxillae (2)</li>
+          <li>Mandible (1)</li>
+          <li>Zygomatic (2)</li>
+          <li>Palatine (2)</li>
+          <li>Inferior nasal conchae (2)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Other</summary>
+        <ul>
+          <li>Hyoid (1)</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Auditory ossicles (middle ear)</summary>
+        <ul>
+          <li>Malleus (2)</li>
+          <li>Incus (2)</li>
+          <li>Stapes (2)</li>
+        </ul>
+      </details>
+
+      <p class="note">Learning hook: irregular bones = “custom parts” (spine, skull base, face, pelvis).</p>
+    </details>
+
+    <details>
+      <summary>5) Sesamoid bones</summary>
+      <details>
+        <summary>Standard sesamoids included in the classic 206 count (4 total)</summary>
+        <ul>
+          <li>Patellae (2)</li>
+          <li>Pisiform (2) <span class="tag">embedded in tendon</span></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Common accessory sesamoids (often present; not always counted)</summary>
+        <ul>
+          <li>Hallux sesamoids (typically 2 under the 1st metatarsal head)</li>
+          <li>Thumb sesamoids (often near the MCP region)</li>
+        </ul>
+      </details>
+
+      <p class="note">Learning hook: sesamoids = tendon “pulley stones” → improve leverage, reduce friction.</p>
+    </details>
+
+    <details>
+      <summary>6) Sutural (wormian) bones <span class="tag">variable/accessory</span></summary>
+      <ul>
+        <li>Small extra bones that can occur within cranial sutures (number/location vary)</li>
+      </ul>
+    </details>
+  </section>
+
+  
+  
+  <section>
+    <h2>Bone pathology (Definitions with micro → macro logic)</h2>
+    <p class="note" id="pathNote">Tip: click the condition name to hide/reveal the definition (quick recall drills).</p>
+    
+    <details>
+      <summary>A) Remodeling / density problems (chronic “renovation imbalance”)</summary>
+      <ul>
+        <li><b>Osteopenia</b>: Lower-than-normal bone mineral density (BMD) that isn’t severe enough to be osteoporosis; reflects <b>net remodeling deficit</b> (resorption &gt; formation) and increases fracture risk over time.</li>
+        <li><b>Osteoporosis</b>: Decreased bone mass + weaker micro-architecture (thin trabeculae, porous cortex) from <b>chronic resorption outpacing formation</b>, leading to fragility fractures (hip, vertebrae, wrist are common).</li>
+        <li><b>Paget disease of bone (osteitis deformans)</b>: Disordered high-turnover remodeling—bone is broken down and rebuilt too fast, producing structurally abnormal, enlarged, weaker bone (pain, deformity, fracture risk).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>B) Mineralization problems (the “soft bone” family)</summary>
+      <ul>
+        <li><b>Osteomalacia (adults)</b>: Poor mineralization of osteoid → bones become softer, causing bone pain and increased fracture risk (often linked to vitamin D/calcium/phosphate problems).</li>
+        <li><b>Rickets (children)</b>: Pediatric osteomalacia affecting growing bones/growth plates, leading to impaired endochondral mineralization and skeletal deformities.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>C) Blood supply failure (acute or chronic “no fuel, no bone”)</summary>
+      <ul>
+        <li><b>Osteonecrosis / Avascular necrosis (AVN)</b>: Bone tissue death from reduced blood flow → structural collapse risk (commonly femoral head). Micro: osteocytes die; macro: subchondral bone weakens and can collapse.</li>
+        <li><b>Bone infarct</b>: Ischemic necrosis within bone (same concept; location emphasis).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>D) Infection/inflammation (bone as a battleground)</summary>
+      <ul>
+        <li><b>Osteomyelitis</b>: Infection of bone causing inflammatory destruction—swelling/pressure can reduce blood flow, and inflammatory signaling ramps osteoclast activity → bone breakdown; possible abscess/sequestrum (clinically: pain; fever may/may not be present; inflammatory markers often elevated).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>E) Mechanical failure (acute injury patterns)</summary>
+      <ul>
+        <li><b>Fracture</b>: Break in bone continuity when load exceeds bone strength (strength depends on mineralization + density + micro-architecture + direction of force).</li>
+      </ul>
+
+      <details>
+        <summary>Fracture patterns (click to expand)</summary>
+        <ul>
+          <li><b>Open (compound)</b>: Communicates with outside → higher infection risk.</li>
+          <li><b>Closed (simple)</b>: Skin intact.</li>
+          <li><b>Comminuted</b>: Multiple fragments (often high-energy trauma; harder stabilization).</li>
+          <li><b>Spiral</b>: Twisting force.</li>
+          <li><b>Transverse / Oblique</b>: Straight-across / angled break from bending/compression.</li>
+          <li><b>Compression</b>: Vertebral bodies commonly (often fragility-related).</li>
+          <li><b>Impacted</b>: Ends driven into each other.</li>
+          <li><b>Greenstick (kids)</b>: Incomplete bend/break (bone more flexible).</li>
+          <li><b>Stress fracture</b>: Microfractures from repetitive loading &gt; repair capacity (common tibia/metatarsals).</li>
+          <li><b>Pathologic fracture</b>: Minimal trauma due to underlying weakness (osteoporosis, tumor, infection, etc.).</li>
+        </ul>
+      </details>
+
+      <p class="note">Micro → macro idea: repeated microcracks + inadequate repair = stress fracture; low density/poor architecture = fragility fracture; altered matrix = pathologic fracture.</p>
+    </details>
+
+    <details>
+      <summary>F) Genetic/primary structural defects (built wrong from the start)</summary>
+      <ul>
+        <li><b>Osteogenesis imperfecta</b>: Inherited disorder (classically collagen-related) leading to brittle bone—matrix is structurally weak, so fractures occur with low trauma.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>G) Tumor/Marrow-driven bone destruction</summary>
+      <ul>
+        <li><b>Osteosarcoma</b>: Malignant bone-forming tumor; causes local bone destruction and pain, may present with swelling/mass.</li>
+        <li><b>Multiple myeloma (bone involvement)</b>: Marrow plasma cell cancer causing lytic bone lesions via signaling that increases osteoclast activity → bone pain, fractures.</li>
+        <li><b>Bone metastasis</b>: Cancer spread to bone causing weakening (lytic) or abnormal hardening (blastic) depending on tumor type; increases fracture risk and pain.</li>
+      </ul>
+    </details>
+
+  </section>
+    </div>
+
+<div id="panel-muscular" class="tab-panel" role="tabpanel" aria-label="Muscular notes">
+      <div class="toolbar">
+        <button type="button" onclick="toggleAll('muscular', true)">Expand all</button>
+        <button type="button" onclick="toggleAll('muscular', false)">Collapse all</button>
+        <button id="studyToggle-muscular" type="button">Study mode</button>
+      </div>
+      <h1>Muscular System – Regional Map + Pathology</h1>
+
+  <section id="skeletalMap">
+    <h2>Skeletal muscle map (region → compartment → action)</h2>
+
+      <p class="note">This is a motion-first view (useful for exams). Click any motion label to hide/reveal the prime movers.</p>
+
+      
+
+<details>
+        <summary>Neck / Head</summary>
+        <ul>
+          <li><b>Neck flexion</b>: Bring chin to rest on chest.
+  <ul>
+    <li>Sternocleidomastoid, Anterior scalene, Longus capitis, Longus colli.</li>
+  </ul>
+</li>
+          <li><b>Neck extension</b>: Return head to erect position.
+  <ul>
+    <li>Superior trapezius, Splenius capitis/cervicis, Semispinalis capitis/cervicis, Longissimus capitis/cervicis, Interspinales cervicis.</li>
+  </ul>
+</li>
+          <li><b>Neck lateral flexion</b>: Tilt head as far as possible toward each shoulder.
+  <ul>
+    <li>Scalenes, Sternocleidomastoid (ipsilateral), Splenius, Longissimus, Levator scapulae (assist).</li>
+  </ul>
+</li>
+          <li><b>Neck rotation</b>: Turn head left/right as far as possible.
+  <ul>
+    <li>Sternocleidomastoid (contralateral), Splenius (ipsilateral), Multifidus/rotatores (segmental).</li>
+  </ul>
+</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Shoulder (glenohumeral)</summary>
+        <ul>
+          <li><b>Flexion</b>: Raise arm from side position forward to position above head.
+  <ul>
+    <li>Anterior deltoid, Pectoralis major (clavicular), Biceps brachii, Coracobrachialis.</li>
+  </ul>
+</li>
+          <li><b>Extension</b>: Return arm to position at side of body.
+  <ul>
+    <li>Posterior deltoid, Latissimus dorsi, Teres major, Triceps brachii (long head).</li>
+  </ul>
+</li>
+          <li><b>Abduction</b>: Raise arm from side to position above head with palm away from head.
+  <ul>
+    <li>Deltoid, Supraspinatus.</li>
+  </ul>
+</li>
+          <li><b>Adduction</b>: Lower arm sideways and across body as far as possible.
+  <ul>
+    <li>Latissimus dorsi, Teres major, Pectoralis major, Coracobrachialis, Triceps (long head).</li>
+  </ul>
+</li>
+          <li><b>Medial rotation</b>: With elbow flexed, rotate arm so the thumb turns inward and toward the back.
+  <ul>
+    <li>Subscapularis, Pectoralis major, Latissimus dorsi, Teres major, Anterior deltoid.</li>
+  </ul>
+</li>
+          <li><b>Lateral rotation</b>: With elbow flexed, rotate arm so the thumb turns upward and even with the head.
+  <ul>
+    <li>Infraspinatus, Teres minor, Posterior deltoid.</li>
+  </ul>
+</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Elbow / Forearm / Wrist</summary>
+        <ul>
+          <li><b>Elbow flexion</b>: Bend elbow so lower arm moves toward shoulder and hand is level with shoulder.
+  <ul>
+    <li>Biceps brachii, Brachialis, Brachioradialis.</li>
+  </ul>
+</li>
+          <li><b>Elbow extension</b>: Straighten elbow by lowering hand.
+  <ul>
+    <li>Triceps brachii, Anconeus.</li>
+  </ul>
+</li>
+          <li><b>Supination</b>: Turn lower arm and hand so palm is up.
+  <ul>
+    <li>Supinator, Biceps brachii.</li>
+  </ul>
+</li>
+          <li><b>Pronation</b>: Turn lower arm so palm is down.
+  <ul>
+    <li>Pronator teres, Pronator quadratus.</li>
+  </ul>
+</li>
+          <li><b>Wrist flexion</b>: Move palm toward inner aspect of forearm.
+  <ul>
+    <li>Flexor carpi radialis, Flexor carpi ulnaris, Palmaris longus, Flexor digitorum superficialis (assist).</li>
+  </ul>
+</li>
+          <li><b>Wrist extension</b>: Move fingers so fingers, hands, and forearm are in same plane.
+  <ul>
+    <li>Extensor carpi radialis longus/brevis, Extensor carpi ulnaris.</li>
+  </ul>
+</li>
+          <li><b>Wrist abduction (radial deviation)</b>: Bend wrist toward thumb.
+  <ul>
+    <li>Flexor carpi radialis, Extensor carpi radialis longus/brevis, APL/EPB (thumb contributors).</li>
+  </ul>
+</li>
+          <li><b>Wrist adduction (ulnar deviation)</b>: Bend wrist toward fifth finger.
+  <ul>
+    <li>Flexor carpi ulnaris, Extensor carpi ulnaris.</li>
+  </ul>
+</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Spine / Trunk</summary>
+        <ul>
+          <li><b>Spine flexion</b>: Bend trunk forward.
+  <ul>
+    <li>Rectus abdominis, Internal/external obliques.</li>
+  </ul>
+</li>
+          <li><b>Spine extension</b>: Return trunk toward upright / arch backward.
+  <ul>
+    <li>Erector spinae (iliocostalis/longissimus/spinalis), Multifidus, Semispinalis, Rotatores, Interspinales.</li>
+  </ul>
+</li>
+          <li><b>Spine lateral flexion</b>: Side-bend trunk toward each side.
+  <ul>
+    <li>Quadratus lumborum, Iliocostalis/longissimus, Internal/external obliques.</li>
+  </ul>
+</li>
+          <li><b>Spine rotation</b>: Twist trunk left/right.
+  <ul>
+    <li>Internal/external obliques (coupled), Multifidus/rotatores (segmental control).</li>
+  </ul>
+</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Hip / Knee / Ankle</summary>
+        <ul>
+          <li><b>Hip flexion</b>: Move leg forward and up.
+  <ul>
+    <li>Iliopsoas, Rectus femoris, Sartorius, Tensor fasciae latae, Iliacus.</li>
+  </ul>
+</li>
+          <li><b>Hip extension</b>: Move leg back beside other leg.
+  <ul>
+    <li>Gluteus maximus, Hamstrings (long head biceps femoris, Semitendinosus, Semimembranosus), Adductor magnus (posterior fibers).</li>
+  </ul>
+</li>
+          <li><b>Hip abduction</b>: Move leg away from body.
+  <ul>
+    <li>Gluteus medius/minimus, Tensor fasciae latae.</li>
+  </ul>
+</li>
+          <li><b>Hip adduction</b>: Move leg back toward other leg (across midline if possible).
+  <ul>
+    <li>Adductor longus/brevis/magnus, Gracilis, Pectineus.</li>
+  </ul>
+</li>
+          <li><b>Hip medial rotation</b>: Turn foot and leg toward other leg.
+  <ul>
+    <li>Anterior fibers of gluteus medius/minimus, Tensor fasciae latae.</li>
+  </ul>
+</li>
+          <li><b>Hip lateral rotation</b>: Turn foot and leg away from other leg.
+  <ul>
+    <li>Gluteus maximus, Piriformis, Obturators, Gemelli, Quadratus femoris, Sartorius (assist).</li>
+  </ul>
+</li>
+
+          <li><b>Knee flexion</b>: Bring heel back toward back of thigh.
+  <ul>
+    <li>Hamstrings, Gastrocnemius, Sartorius, Gracilis, Popliteus.</li>
+  </ul>
+</li>
+          <li><b>Knee extension</b>: Straighten knee to return leg to the floor/standing.
+  <ul>
+    <li>Quadriceps (rectus femoris + vasti).</li>
+  </ul>
+</li>
+          <li><b>Knee medial rotation</b>: With knee flexed, rotate tibia so foot turns inward (relative to femur).
+  <ul>
+    <li>Semitendinosus, Semimembranosus, Gracilis, Sartorius, Popliteus.</li>
+  </ul>
+</li>
+          <li><b>Knee lateral rotation</b>: With knee flexed, rotate tibia so foot turns outward (relative to femur).
+  <ul>
+    <li>Biceps femoris.</li>
+  </ul>
+</li>
+
+          <li><b>Dorsiflexion</b>: Move foot so that toes are pointed upward.
+  <ul>
+    <li>Tibialis anterior, Extensor hallucis longus, Extensor digitorum longus.</li>
+  </ul>
+</li>
+          <li><b>Plantarflexion</b>: Move foot so that toes are pointed downward.
+  <ul>
+    <li>Gastrocnemius, Soleus, Tibialis posterior, Flexor hallucis longus, Flexor digitorum longus, Plantaris.</li>
+  </ul>
+</li>
+          <li><b>Inversion</b>: Turn sole of foot toward the body.
+  <ul>
+    <li>Tibialis anterior, Tibialis posterior.</li>
+  </ul>
+</li>
+          <li><b>Eversion</b>: Turn sole of foot away from the body.
+  <ul>
+    <li>Fibularis (peroneus) longus/brevis, Extensor digitorum longus (assist).</li>
+  </ul>
+</li>
+        </ul>
+      </details>
+  </section>
+
+  <section>
+
+<h2>Muscular pathology (definitions with micro → macro logic)</h2>
+    <p class="note" id="pathNote-2">Tip: click any bolded condition name to hide/reveal the definition. Study mode hides all definitions until you “earn” them.</p>
+
+    <details>
+      <summary>A) Tendinopathy / tendinitis / tenosynovitis (load → microdamage → pain)</summary>
+      <ul>
+        <li><b>Tendinopathy</b>: Umbrella term for painful tendon dysfunction. Mechanism: repetitive load → microtears + collagen disorganization; may be inflammatory early (“tendinitis”) and more degenerative with chronicity (“tendinosis”).</li>
+        <li><b>Tendinitis</b>: More acute inflammatory tendon pain (often after a sudden spike in load). Mechanism: inflammatory mediators sensitize nociceptors → pain with use; swelling may appear.</li>
+        <li><b>Tendinosis</b>: Chronic degenerative tendon change (less classic inflammation, more collagen chaos). Mechanism: failed healing → weaker tensile properties → pain + higher rupture risk under load.</li>
+        <li><b>Tenosynovitis</b>: Inflammation of a tendon sheath (common in hands/wrists). Mechanism: friction inside a tight sheath → swelling → “sticking” motion and pain.</li>
+        <li><b>Enthesopathy</b>: Pain/degeneration at the tendon-to-bone insertion (enthesis). Mechanism: high stress concentration at insertion → microfailure + inflammatory signaling.</li>
+      </ul>
+
+      <details>
+        <summary>Major joint patterns (medial vs lateral differentiation)</summary>
+
+        <details>
+          <summary>Elbow</summary>
+          <ul>
+            <li><b>Lateral epicondylitis (tennis elbow)</b>: Lateral elbow pain from extensor origin tendinopathy (classically ECRB). Mechanism: wrist extension/grip overload → microtears at lateral epicondyle.</li>
+            <li><b>Medial epicondylitis (golfer’s elbow)</b>: Medial elbow pain from flexor-pronator origin tendinopathy. Mechanism: wrist flexion/pronation overload → microtears at medial epicondyle.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Knee</summary>
+          <ul>
+            <li><b>Pes anserine tendinopathy</b>: Medial knee pain at sartorius/gracilis/semitendinosus insertion. Mechanism: valgus/overuse + friction at anteromedial tibia insertion.</li>
+            <li><b>Iliotibial (IT) band friction syndrome</b>: Lateral knee pain from repetitive rubbing over lateral femoral epicondyle. Mechanism: repetitive flex/extend (running/cycling) → friction + local inflammation.</li>
+            <li><b>Patellar tendinopathy (jumper’s knee)</b>: Anterior knee pain at patellar tendon (often inferior pole of patella). Mechanism: high eccentric quad load → microdamage in tendon.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Ankle / Foot</summary>
+          <ul>
+            <li><b>Posterior tibial tendinopathy</b>: Medial ankle/arch pain; may progress to acquired flatfoot. Mechanism: tendon overload → loss of dynamic arch support.</li>
+            <li><b>Peroneal (fibularis) tendinopathy</b>: Lateral ankle pain; often with instability. Mechanism: eversion stabilizers overloaded (especially after ankle sprains).</li>
+            <li><b>Achilles tendinopathy</b>: Posterior heel pain; thickened tendon common. Mechanism: repetitive plantarflexion load → microdamage; risk of rupture with degeneration.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Hip</summary>
+          <ul>
+            <li><b>Gluteus medius/minimus tendinopathy</b>: Lateral hip pain (greater trochanteric pain region). Mechanism: abductor overload → tendon microdamage near trochanter.</li>
+            <li><b>Adductor tendinopathy</b>: Medial groin pain with adduction. Mechanism: high adductor load (cutting/sprinting) → microtears near pubic insertion.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Wrist / Hand</summary>
+          <ul>
+            <li><b>De Quervain tenosynovitis</b>: Radial (thumb-side) wrist pain from APL/EPB sheath inflammation. Mechanism: repetitive thumb abduction/extension → sheath swelling → friction.</li>
+            <li><b>ECU tendinopathy/tenosynovitis</b>: Ulnar-side wrist pain from extensor carpi ulnaris overload. Mechanism: repetitive ulnar deviation/supination-pronation stresses the tendon in its groove.</li>
+            <li><b>Trigger finger (stenosing tenosynovitis)</b>: Finger “catches/locks” as tendon thickens or A1 pulley tightens. Mechanism: tendon-pulley mismatch → snapping motion.</li>
+          </ul>
+        </details>
+
+      </details>
+    </details>
+
+    <details>
+      <summary>B) Bursitis (friction sacs inflamed)</summary>
+      <ul>
+        <li><b>Subacromial bursitis</b>: Shoulder pain with abduction; often co-travels with rotator cuff tendinopathy. Mechanism: impingement + repetitive overhead motion → bursal inflammation.</li>
+        <li><b>Olecranon bursitis</b>: Posterior elbow swelling (“student’s elbow”). Mechanism: repeated pressure/trauma → fluid + inflammation.</li>
+        <li><b>Prepatellar bursitis</b>: Anterior knee swelling (“housemaid’s knee”). Mechanism: kneeling pressure → bursal inflammation.</li>
+        <li><b>Trochanteric bursitis</b>: Lateral hip pain; often part of greater trochanteric pain syndrome. Mechanism: friction/overuse at lateral hip structures.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>C) Muscle injury (strain → tear → scar)</summary>
+      <ul>
+        <li><b>Muscle strain</b>: Overstretch/overload injury at muscle or myotendinous junction. Mechanism: microfiber disruption → inflammation → pain + weakness.</li>
+        <li><b>Partial tear</b>: More structural fiber disruption; pain + functional deficit. Mechanism: bigger discontinuity → longer healing time + scar risk.</li>
+        <li><b>Complete rupture</b>: Full-thickness failure (often tendon). Mechanism: compromised collagen + high load → sudden loss of function.</li>
+        <li><b>DOMS (delayed onset muscle soreness)</b>: Soreness 24–72h after unusual/eccentric work. Mechanism: microdamage + inflammatory signaling + sensitization (not lactic acid).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>D) Compartment syndromes (pressure → ischemia)</summary>
+      <ul>
+        <li><b>Acute compartment syndrome</b>: Rising compartment pressure compromises perfusion → ischemia → necrosis. Mechanism: swelling/bleeding in a closed fascial box; emergency to prevent permanent damage.</li>
+        <li><b>Chronic exertional compartment syndrome</b>: Exercise-induced pressure rise causing recurrent pain/tightness that resolves with rest. Mechanism: reversible perfusion limitation during activity.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>E) Inflammatory myopathies (immune attack on muscle)</summary>
+      <ul>
+        <li><b>Polymyositis</b>: Immune-mediated proximal muscle weakness. Mechanism: inflammatory cell attack on muscle fibers → weakness more than pain.</li>
+        <li><b>Dermatomyositis</b>: Proximal weakness + characteristic skin findings. Mechanism: immune-mediated microvascular injury affecting muscle/skin.</li>
+        <li><b>Inclusion body myositis</b>: Slowly progressive weakness (often older adults), frequently treatment-resistant. Mechanism: mixed inflammatory + degenerative protein-aggregate pathology.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>F) Necrosis/toxicity (muscle breakdown)</summary>
+      <ul>
+        <li><b>Rhabdomyolysis</b>: Skeletal muscle breakdown releasing myoglobin/CK into blood. Mechanism: membrane failure → myoglobin load can injure kidneys; triggers include crush injury, extreme exertion, heat, certain meds/toxins.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>G) Neuromuscular transmission disorders (wires + receptors fail → weakness)</summary>
+      <ul>
+        <li><b>Myasthenia gravis</b>: Autoantibodies reduce functional ACh receptors at NMJ → fatigable weakness. Mechanism: fewer receptors → smaller end-plate potentials → failure with repeated use.</li>
+        <li><b>Lambert–Eaton syndrome</b>: Autoantibodies target presynaptic voltage-gated Ca²⁺ channels → reduced ACh release. Mechanism: less vesicle fusion → weakness that may improve with repeated activity (facilitation).</li>
+        <li><b>Botulism</b>: Toxin blocks ACh release → flaccid paralysis. Mechanism: SNARE cleavage prevents vesicle fusion.</li>
+        <li><b>Tetanus</b>: Toxin blocks inhibitory neurotransmitter release (GABA/glycine) → spastic paralysis. Mechanism: disinhibition of motor neurons.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>H) Fascia disorders (wrapping tissue fails: friction, fibrosis, infection)</summary>
+      <ul>
+        <li><b>Plantar fasciitis</b>: Heel pain (often worst with first steps) from microdamage at the plantar fascia’s calcaneal attachment. Mechanism: repetitive tensile load → microtears + degenerative change; “-itis” is historical and may be less purely inflammatory chronically.</li>
+        <li><b>Myofascial pain syndrome</b>: Regional pain driven by “trigger points” in taut muscle bands plus irritated fascia. Mechanism: local metabolic stress + sensitized nociceptors → referred pain patterns; perpetuated by overuse/posture/sleep stress.</li>
+        <li><b>Dupuytren contracture (palmar fascial fibromatosis)</b>: Progressive thickening of palmar fascia → cords → flexion contractures (classically ring/small finger). Mechanism: fibroblast/myofibroblast overactivity → collagen deposition + tissue shortening.</li>
+        <li><b>Eosinophilic fasciitis</b>: Painful swelling + thickened fascia (often forearms/legs). Mechanism: inflammatory infiltration + fibrosis of fascia → stiffness and “tight skin” sensation.</li>
+        <li><b>Necrotizing fasciitis</b>: Rapid, life-threatening infection tracking along fascial planes. Mechanism: bacterial toxins + ischemia in fascia → fast tissue death; hallmark is pain out of proportion and systemic toxicity; requires urgent surgery + antibiotics.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>I) Ligament pathology (joint stability fails: laxity → subluxation)</summary>
+      <p class="note">Ligaments are dense regular connective tissue connecting bone-to-bone; they’re classically cataloged with the skeletal system, but are biomechanically inseparable from muscle tendons. Ligaments set the “rules of motion” that muscles act within.</p>
+      <ul>
+        <li><b>Ligament sprain</b>: Overstretch/partial tearing of ligament fibers. Mechanism: collagen fiber disruption → hemorrhage + inflammatory mediators → pain, swelling, instability.</li>
+        <li><b>Complete ligament tear/rupture</b>: Full-thickness failure → mechanical instability. Mechanism: tensile overload (often with twisting) exceeds collagen strength; may need surgical reconstruction depending on structure/instability.</li>
+        <li><b>ACL tear</b>: Knee instability after pivot/noncontact deceleration injury. Mechanism: anterior tibial translation + rotation overwhelms ACL; “pop” + swelling can occur.</li>
+        <li><b>MCL sprain</b>: Medial knee pain after valgus stress. Mechanism: medial collateral fibers strained by force driving knee inward.</li>
+        <li><b>LCL sprain</b>: Lateral knee pain after varus stress. Mechanism: lateral collateral fibers strained by force driving knee outward.</li>
+        <li><b>Syndesmotic injury (high ankle sprain)</b>: Pain above ankle mortise, worse with external rotation/dorsiflexion. Mechanism: tearing of distal tibiofibular ligaments → widened mortise + prolonged recovery.</li>
+        <li><b>UCL injury (thumb MCP; “skier’s thumb”)</b>: Loss of pinch stability after forced abduction. Mechanism: UCL tear → valgus laxity at thumb MCP.</li>
+        <li><b>UCL injury (elbow; “thrower’s”)</b>: Medial elbow pain/instability with pitching. Mechanism: repeated valgus torque → microfailure/tear; may require reconstruction (“Tommy John”).</li>
+        <li><b>Ligamentous laxity / hypermobility</b>: Excess joint motion due to collagen quality or neuromuscular control. Mechanism: lower passive restraint → higher demand on muscles and proprioception; injury risk rises if control is poor. Subluxation = a partial dislocation: the joint surfaces lose normal alignment/contact without complete separation.</li>
+      </ul>
+    </details>
+
+  </section>
+    </div>
+  </div>
+
+<div id="panel-heart" class="tab-panel" role="tabpanel" aria-label="Heart notes">
+      <div class="toolbar">
+        <button type="button" onclick="toggleAll('heart', true)">Expand all</button>
+        <button type="button" onclick="toggleAll('heart', false)">Collapse all</button>
+        <button id="studyToggle-heart" type="button">Study mode</button>
+      </div>
+      <h1>Heart – Mediastinum → Layers → Valves → Conduction</h1>
+
+  
+
+  <section>
+    <h2>Mediastinum (definition + boundaries)</h2>
+
+    <details>
+      <summary>Mediastinum</summary>
+      <ul>
+        <li><b>Definition</b>: Central compartment of the thoracic cavity between the right and left pleural sacs.</li>
+      </ul>
+
+      <details>
+        <summary>Boundaries (whole mediastinum)</summary>
+        <ul>
+          <li><b>Anterior boundary</b>: Sternum + costal cartilages.</li>
+          <li><b>Posterior boundary</b>: Thoracic vertebral bodies.</li>
+          <li><b>Lateral boundary</b>: Mediastinal pleura (the medial pleural surfaces).</li>
+          <li><b>Inferior boundary</b>: Diaphragm.</li>
+          <li><b>Superior boundary</b>: Superior thoracic aperture (thoracic inlet).</li>
+        </ul>
+      </details>
+
+    </details>
+  </section>
+
+  
+  
+  <section>
+    <h2>Great vessels (afferent vs efferent)</h2>
+
+    <details>
+      <summary>Blood flow organization</summary>
+      <p class="note">Afferent = flowing into the heart. Efferent = flowing out of the heart.</p>
+
+      <details>
+        <summary>Afferent (to the heart)</summary>
+        <ul>
+          <li><b>Superior vena cava (SVC)</b>: Returns deoxygenated blood from the upper body to the right atrium.</li>
+          <li><b>Inferior vena cava (IVC)</b>: Returns deoxygenated blood from the lower body to the right atrium.</li>
+          <li><b>Pulmonary veins</b>: Return oxygenated blood from the lungs to the left atrium.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Efferent (from the heart)</summary>
+        <ul>
+          <li><b>Pulmonary trunk → pulmonary arteries</b>: Carry deoxygenated blood from the right ventricle to the lungs.</li>
+          <li><b>Aorta</b>: Carries oxygenated blood from the left ventricle to the systemic circulation.</li>
+        </ul>
+      </details>
+
+    </details>
+  </section>
+
+  
+  
+  <section>
+    <h2>Pericardium (layers: superficial → deep)</h2>
+
+    <details>
+      <summary>Pericardium overview</summary>
+      <ul>
+        <li><b>Pericardium</b>: A protective sac around the heart that anchors it in the mediastinum and provides a low-friction surface for beating.</li>
+      </ul>
+
+      <details>
+        <summary>Layers (superficial → deep)</summary>
+        <ul>
+          <li><b>Fibrous pericardium</b>: Tough outer layer of dense connective tissue. It is firmly anchored to the <b>central tendon of the diaphragm</b>, attached anteriorly to the sternum (sternopericardial connections), and continuous superiorly with the connective tissue (adventitia) of the great vessels—anchoring the heart in place and limiting sudden expansion.</li>
+          <li><b>Parietal serous pericardium</b>: Thin, smooth serous membrane that lines the inner surface of the fibrous pericardium (it is the “sac lining” of the serous pericardium).</li>
+          <li><b>Pericardial cavity</b>: Potential space between the parietal and visceral serous layers containing a thin film of serous fluid; acts as a lubrication layer so the heart can beat with minimal friction against the sac.</li>
+          <li><b>Visceral serous pericardium (epicardium)</b>: Serous membrane tightly adherent to the heart surface; it is the “heart surface” layer of the serous pericardium and is also the outermost layer of the heart wall.</li>
+        </ul>
+        <p class="note">Mechanic idea: fibrous = anchor/limit; serous = slippery; cavity = fluid glide-plane.</p>
+      </details>
+
+      <details>
+        <summary>Common confusion breaker: pericardium vs heart wall</summary>
+        <ul>
+          <li><b>Epicardium</b>: Same thing as visceral serous pericardium (outer heart surface).</li>
+          <li><b>Myocardium</b>: Thick cardiac muscle layer that generates force.</li>
+          <li><b>Endocardium</b>: Inner lining of chambers/valves (continuous with vascular endothelium).</li>
+        </ul>
+        <p class="note">One phrase that helps: <b>Serous pericardium folds</b> (parietal ↔ visceral) with a small <b>fluid space</b> between them.</p>
+      </details>
+
+    </details>
+  </section>
+
+  
+  
+  <section>
+    <h2>Myocardium (right pump vs left pump)</h2>
+
+    <details>
+      <summary>Right pump (pulmonary circuit)</summary>
+      <ul>
+        <li><b>Right atrium (RA)</b>: Receiving chamber for systemic venous blood (from SVC/IVC).</li>
+        <li><b>Right ventricle (RV)</b>: Sending chamber to the pulmonary trunk; RV wall is <b>thinner than the LV</b> (built for lower-pressure output).</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Left pump (systemic circuit)</summary>
+      <ul>
+        <li><b>Left atrium (LA)</b>: Receiving chamber for oxygenated blood (from pulmonary veins).</li>
+        <li><b>Left ventricle (LV)</b>: Sending chamber to the aorta; LV wall is <b>thicker than the RV</b> (built for higher-pressure output).</li>
+      </ul>
+    </details>
+
+  </section>
+
+  
+  
+  <section>
+    <h2>Endocardium + valves (AV vs semilunar)</h2>
+
+    <details>
+      <summary>Endocardium</summary>
+      <ul>
+        <li><b>Endocardium</b>: Endothelial inner lining of the heart chambers and valves; smooth non-stick lining continuous with blood vessel endothelium.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Valves (purpose + organization)</summary>
+      <ul>
+        <li><b>Valve purpose</b>: Ensure one-way blood flow by preventing backflow when pressure gradients reverse.</li>
+      </ul>
+
+      <details>
+        <summary>Atrioventricular (AV) valves (atrium → ventricle)</summary>
+        <ul>
+          <li><b>Tricuspid valve</b>: Right atrium → right ventricle.</li>
+          <li><b>Mitral (bicuspid) valve</b>: Left atrium → left ventricle.</li>
+          <li><b>Chordae tendineae</b>: Fibrous cords connecting valve leaflets to papillary muscles; prevent leaflet prolapse into atria during ventricular contraction.</li>
+          <li><b>Papillary muscles</b>: Ventricular muscles that tense chordae during systole to stabilize AV valves and reduce regurgitation risk.</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Semilunar (SL) valves (ventricle → artery)</summary>
+        <ul>
+          <li><b>Pulmonic valve</b>: Right ventricle → pulmonary trunk.</li>
+          <li><b>Aortic valve</b>: Left ventricle → aorta.</li>
+          <li><b>How they close</b>: When ventricular pressure falls below arterial pressure, blood briefly flows backward toward the ventricle and fills the cusps, snapping the valve shut.</li>
+        </ul>
+      </details>
+
+    </details>
+
+  </section>
+
+  
+  
+  <section>
+    <h2>Electrical conduction (pathway + ECG mapping)</h2>
+
+    <details>
+      <summary>Electrical events of the cardiac cycle (visual anchor)</summary>
+      <div class="imgCard">
+        <img src="assets/img/ekg-events.jpg" alt="ECG diagram" loading="lazy" decoding="async">
+        <p class="imgCap">Diagram: P wave (atrial depolarization), QRS complex (ventricular depolarization), ST segment (uniform depolarization), T wave (ventricular repolarization).</p>
+      </div>
+      <p class="note">This image is embedded for portability.</p>
+    </details>
+
+    <details>
+      <summary>Conduction pathway (structures + jobs)</summary>
+      <ul>
+        <li><b>Sinoatrial (SA) node</b>: Primary pacemaker in the right atrium near the SVC; initiates atrial depolarization.</li>
+        <li><b>Bachmann’s bundle</b>: Preferential pathway carrying impulses from the right atrium to the left atrium, coordinating atrial activation.</li>
+        <li><b>Internodal pathways</b>: Conduction routes within the right atrium that carry impulses toward the AV node.</li>
+        <li><b>Atrioventricular (AV) node</b>: The gate between atria and ventricles; slows conduction and filters impulses before they reach the ventricles.</li>
+        <li><b>Bundle of His (AV bundle)</b>: Electrical bridge through the fibrous skeleton into the interventricular septum.</li>
+        <li><b>Right and left bundle branches</b>: Rapid pathways down the interventricular septum toward the apex.</li>
+        <li><b>Purkinje fibers</b>: Fast subendocardial network that spreads depolarization across ventricular myocardium for coordinated contraction.</li>
+      </ul>
+
+      <details>
+        <summary>AV node as “Equalizer” and “Resistor” (two different jobs)</summary>
+        <ul>
+          <li><b>Equalizer (timing)</b>: Delays atrial-to-ventricular conduction (~0.1 s) so atria can finish emptying into ventricles before ventricular contraction begins.</li>
+          <li><b>Resistor (filter)</b>: Limits how many atrial impulses reach the ventricles at very fast atrial rates (long refractory period + decremental conduction → some impulses are blocked).</li>
+          <li><b>Key exam nuance</b>: An isoelectric segment on the ECG can coincide with strong mechanical contraction (flat electrical line ≠ mechanical silence).</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Quick reference table (ECG timing + electrical location + mechanical meaning)</summary>
+                <table class="miniTable">
+          <thead>
+            <tr>
+              <th>ECG component</th>
+              <th>Duration (seconds / boxes)</th>
+              <th>Amplitude (mm / boxes)</th>
+              <th>Electrical location (what tissue is active?)</th>
+              <th>Mechanical consequence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>P wave</td>
+              <td>0.08–0.10 s / 2–2.5 boxes</td>
+              <td>&lt; 2.5 mm / &lt; 2.5 boxes</td>
+              <td>Atrial myocardium depolarizing</td>
+              <td>Atrial systole follows shortly</td>
+            </tr>
+            <tr>
+              <td>PR interval</td>
+              <td>0.12–0.20 s / 3–5 boxes</td>
+              <td>N/A</td>
+              <td>AV node delay → His entry</td>
+              <td>Ventricular filling time protected (atria finish emptying before ventricles contract)</td>
+            </tr>
+            <tr>
+              <td>QRS complex</td>
+              <td>0.06–0.10 s / 1.5–2.5 boxes</td>
+              <td>5–30 mm / 5–30 boxes</td>
+              <td>IVS + ventricular myocardium depolarizing</td>
+              <td>Ventricular systole begins and ramps</td>
+            </tr>
+            <tr>
+              <td>QT interval</td>
+              <td>&lt; 0.44–0.46 s / up to 11 boxes</td>
+              <td>N/A</td>
+              <td>Ventricles from start of depolarization → end of repolarization</td>
+              <td>Total ventricular “electrical systole” time (sets the timing window for contraction + recovery)</td>
+            </tr>
+            <tr>
+              <td>T wave</td>
+              <td>N/A</td>
+              <td>&lt; 5 mm (limb), &lt; 10 mm (precordial) / &lt; 5–10 boxes</td>
+              <td>Ventricular myocardium repolarizing</td>
+              <td>Relaxation begins → diastole setup</td>
+            </tr>
+            <tr>
+              <td>ST segment</td>
+              <td>0.08–0.12 s / 2–3 boxes</td>
+              <td>Isoelectric (&lt; 1–2 boxes)</td>
+              <td>Ventricles uniformly depolarized</td>
+              <td>Peak contraction/ejection phase (flat electrical line ≠ mechanical silence)</td>
+            </tr>
+            <tr>
+              <td>U wave</td>
+              <td>N/A</td>
+              <td>&lt; 1.5 mm / &lt; 1.5 boxes</td>
+              <td>Often not visible; late repolarization (exact source can vary)</td>
+              <td>Usually no distinct mechanical event (if prominent, think “something’s off” clinically)</td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+
+    </details>
+
+  </section>
+    </div>
+
+<div id="panel-blood" class="tab-panel" role="tabpanel" aria-label="Blood notes">
+      <div class="toolbar">
+        <button type="button" onclick="toggleAll('blood', true)">Expand all</button>
+        <button type="button" onclick="toggleAll('blood', false)">Collapse all</button>
+        <button id="studyToggle-blood" type="button">Study mode</button>
+      </div>
+
+      <h1>Blood – Composition → Formed elements → Typing</h1>
+
+  <section>
+        <h2>1) Blood at a glance (major fractions + plasma composition)</h2>
+<details>
+          <summary>Whole blood after centrifugation</summary>
+          <ul>
+            <li><b>Plasma</b>: Top layer, about <b>55%</b> of blood volume; the liquid transport medium.</li>
+            <li><b>Buffy coat</b>: Thin middle layer, <b>&lt;1%</b>; made of <b>white blood cells</b> and <b>platelets</b>.</li>
+            <li><b>Red blood cells (RBCs)</b>: Bottom layer, about <b>45%</b>; the major formed element by volume.</li>
+            <li><b>Hematocrit</b>: The percentage of total blood volume occupied by RBCs.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Plasma composition</summary>
+          <ul>
+            <li><b>Water</b>: About <b>92%</b>; solvent, heat carrier, and volume base.</li>
+            <li><b>Plasma proteins</b>: About <b>7%</b>; transport, osmotic balance, clotting, and regulation.</li>
+            <li><b>Other solutes</b>: About <b>1%</b>; electrolytes, nutrients, wastes, and other dissolved molecules.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Plasma proteins (what they do)</summary>
+          <ul>
+            <li><b>Albumins</b>: About <b>60%</b> of plasma proteins; transport lipids and steroid hormones and are the major contributor to plasma <b>oncotic pressure</b>.</li>
+            <li><b>Globulins</b>: About <b>35%</b>; transport ions, hormones, and lipids; many also serve immune functions.</li>
+            <li><b>Fibrinogen</b>: About <b>4%</b>; essential precursor for fibrin formation in the clotting cascade.</li>
+            <li><b>Regulatory proteins</b>: <b>&lt;1%</b>; include enzymes, hormones, and signaling proteins.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Other solutes</summary>
+          <ul>
+            <li><b>Electrolytes</b>: Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>2+</sup>, Cl<sup>−</sup>, HCO<sub>3</sub><sup>−</sup>; essential for membrane potentials, fluid balance, and acid–base control.</li>
+            <li><b>Organic nutrients</b>: Glucose, amino acids, and fatty acids used for ATP production, growth, and maintenance.</li>
+            <li><b>Organic wastes</b>: Urea, bilirubin, creatinine, and others carried toward organs of excretion.</li>
+          </ul>
+        </details>
+      </section>
+
+<section>
+        <h2>2) Formed elements (origin → lifespan → disposal)</h2>
+
+        <details>
+          <summary>Origin: hematopoiesis + active red bone marrow sites</summary>
+          <ul>
+            <li><b>Hematopoiesis</b>: the process of producing the formed elements of blood from hematopoietic stem cells.</li>
+            <li><b>Main origin</b>: <b>red bone marrow</b>.</li>
+            <li><b>Major active adult red marrow sites</b>: pelvis (especially iliac crest), vertebrae, sternum, ribs, skull, and proximal ends of the humerus and femur.</li>
+            <li><b>Stem-cell logic</b>: one marrow stem-cell pool gives rise to erythrocytes, leukocytes, and platelets through different differentiation lines.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Red blood cells (erythrocytes)</summary>
+          <ul>
+            <li><b>Main job</b>: carry oxygen through <b>hemoglobin</b> and assist with carbon dioxide transport.</li>
+            <li><b>Shape</b>: biconcave disc; increases surface area for gas exchange and allows deformation through narrow capillaries.</li>
+            <li><b>No nucleus at maturity</b>: maximizes room for hemoglobin but prevents cell division and long-term repair.</li>
+            <li><b>Lifespan</b>: about <b>120 days</b>.</li>
+            <li><b>Disposal route</b>: old or damaged RBCs are removed mainly by macrophages in the <b>spleen</b>, <b>liver</b>, and <b>bone marrow</b>.</li>
+            <li><b>Hemoglobin breakdown</b>: globin is recycled to amino acids; iron is reclaimed and reused; heme is converted to bilirubin for processing and excretion.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Platelets (thrombocytes)</summary>
+          <ul>
+            <li><b>Main job</b>: hemostasis; form the early platelet plug and provide a surface for coagulation factor reactions.</li>
+            <li><b>Origin</b>: fragments shed from <b>megakaryocytes</b> in red bone marrow.</li>
+            <li><b>Lifespan</b>: about <b>7–10 days</b>.</li>
+            <li><b>Disposal route</b>: cleared mainly by the <b>spleen</b> and <b>liver</b>.</li>
+            <li><b>Clinical logic</b>: too few platelets or dysfunctional platelets → easy bruising, petechiae, mucosal bleeding, prolonged bleeding.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>White blood cells (leukocytes)</summary>
+          <ul>
+            <li><b>General origin</b>: arise from bone marrow stem cells; some mature further in lymphoid tissues.</li>
+            <li><b>Neutrophils</b>: about <b>50–70%</b>; fast responders, especially in acute bacterial infection; phagocytic. <b>Lifespan</b>: hours in blood, then about <b>1–2 days</b> in tissues. <b>Disposal</b>: die at infection sites and are cleared by macrophages; many end up in pus.</li>
+            <li><b>Lymphocytes</b>: about <b>20–30%</b>; adaptive immunity. <b>B cells</b> make antibodies, <b>T cells</b> coordinate and kill infected cells. <b>Lifespan</b>: days to years depending on subtype and memory status. <b>Disposal</b>: apoptosis and clearance in lymphoid tissues, spleen, and liver.</li>
+            <li><b>Monocytes</b>: about <b>2–8%</b>; become macrophages in tissues; cleanup + antigen presentation. <b>Lifespan</b>: about <b>1–3 days</b> in blood, then much longer after entering tissues. <b>Disposal</b>: die in tissues and are cleared locally or by reticuloendothelial organs.</li>
+            <li><b>Eosinophils</b>: about <b>2–4%</b>; associated with parasites and allergic/asthmatic patterns. <b>Lifespan</b>: several hours in blood, then days in tissues. <b>Disposal</b>: apoptosis + macrophage clearance in tissues.</li>
+            <li><b>Basophils</b>: <b>&lt;1%</b>; release histamine and other mediators in hypersensitivity responses. <b>Lifespan</b>: typically a few days. <b>Disposal</b>: apoptosis + reticuloendothelial clearance.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section>
+        <h2>3) Blood typing (ABO) + Rh (Rhesus)</h2>
+
+        <details>
+          <summary>Visual anchor: ABO blood type chart</summary>
+          <div class="imgCard">
+            <img src="assets/img/ABO-Blood.jpg" alt="ABO blood type chart showing red blood cell antigens, plasma antibodies, and emergency compatibility" loading="lazy" decoding="async">
+          </div>
+        </details>
+
+        <details>
+          <summary>ABO system: the core rule</summary>
+          <ul>
+            <li><b>Antigen</b>: Surface marker on the RBC membrane.</li>
+            <li><b>Antibody</b>: Plasma protein that binds a specific antigen.</li>
+            <li><b>Rule</b>: Plasma antibodies target the ABO antigens the person <b>does not have</b>.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>ABO blood groups</summary>
+          <ul>
+            <li><b>Type A</b>: RBCs have <b>A antigen</b>; plasma has <b>anti-B</b> antibodies.</li>
+            <li><b>Type B</b>: RBCs have <b>B antigen</b>; plasma has <b>anti-A</b> antibodies.</li>
+            <li><b>Type AB</b>: RBCs have <b>A and B antigens</b>; plasma has <b>no anti-A or anti-B</b> antibodies.</li>
+            <li><b>Type O</b>: RBCs have <b>no A or B antigens</b>; plasma has <b>anti-A and anti-B</b> antibodies.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>ABO compatibility logic (RBC transfusion)</summary>
+          <ul>
+            <li><b>Type A recipient</b>: Can receive <b>A</b> or <b>O</b> RBCs.</li>
+            <li><b>Type B recipient</b>: Can receive <b>B</b> or <b>O</b> RBCs.</li>
+            <li><b>Type AB recipient</b>: Can receive <b>A, B, AB, or O</b> RBCs; broadest ABO recipient.</li>
+            <li><b>Type O recipient</b>: Can receive <b>O only</b> for RBCs.</li>
+            <li><b>Type O donor</b>: Broadest ABO RBC donor because there are no A/B antigens on the donor RBC membrane.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Why mismatched transfusion is dangerous</summary>
+          <ul>
+            <li><b>Agglutination</b>: Recipient antibodies bind donor RBC antigens and clump the cells together.</li>
+            <li><b>Hemolysis</b>: The mismatched RBCs rupture and release contents into plasma; this can become a medical emergency.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Rh (Rhesus) factor: positive vs negative</summary>
+          <ul>
+            <li><b>Rh+</b>: RBCs carry the <b>D antigen</b>.</li>
+            <li><b>Rh−</b>: RBCs do <b>not</b> carry the D antigen.</li>
+            <li><b>Key difference from ABO</b>: Anti-D antibodies are usually formed <b>after exposure</b> to Rh+ blood, not automatically present from baseline.</li>
+            <li><b>Transfusion logic</b>: Rh− patients should not casually receive Rh+ blood because sensitization can occur.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Rh in pregnancy (high-yield clinical link)</summary>
+          <ul>
+            <li><b>Setup</b>: An <b>Rh− mother</b> carrying an <b>Rh+ fetus</b> can become sensitized if fetal RBCs enter maternal circulation.</li>
+            <li><b>Problem</b>: In a later Rh+ pregnancy, maternal anti-D antibodies can cross the placenta and destroy fetal RBCs.</li>
+            <li><b>Name</b>: Hemolytic disease of the newborn (erythroblastosis fetalis).</li>
+            <li><b>Prevention</b>: <b>Rho(D) immune globulin</b> is given to Rh− mothers to prevent sensitization.</li>
+          </ul>
+        </details>
+      </section>
+    </div>
+
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
+
