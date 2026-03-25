@@ -1,5 +1,5 @@
 (function () {
-  const panels = ["vitals", "skeletal", "muscular", "heart", "blood", "respiratory", "skin"];
+  const panels = ["vitals", "tubes", "skeletal", "muscular", "heart", "blood", "respiratory", "skin"];
   const LAST_TAB_KEY = "anatomy-notes-active-tab";
 
   function setActive(tab) {
