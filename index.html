@@ -1,11 +1,12 @@
 
+
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Anatomy Notes – Vitals + Skeletal + Muscular + Heart + Blood + Respiratory + Skin</title>
+<title>Anatomy Notes – Vitals + Tubes + Skeletal + Muscular + Heart + Blood + Respiratory + Skin</title>
 <link href="assets/css/styles.css" rel="stylesheet"/>
 <style>
     h3{ margin:0 0 8px 0; font-size:1rem; }
@@ -71,6 +72,7 @@
 <div class="wrap">
 <div aria-label="Notes tabs" class="tabbar" role="tablist">
 <button class="active-tab" data-tab="vitals" role="tab" type="button">Vitals</button>
+<button data-tab="tubes" role="tab" type="button">Tubes</button>
 <button data-tab="skeletal" role="tab" type="button">Skeletal</button>
 <button data-tab="muscular" role="tab" type="button">Muscular</button>
 <button data-tab="heart" role="tab" type="button">Heart</button>
@@ -575,6 +577,192 @@
 </details>
 </section>
 </div>
+<div aria-label="Tubes notes" class="tab-panel" id="panel-tubes" role="tabpanel">
+<div class="toolbar">
+<button onclick="toggleAll('tubes', true)" type="button">Expand all</button>
+<button onclick="toggleAll('tubes', false)" type="button">Collapse all</button>
+<button id="studyToggle-tubes" type="button">Study mode</button>
+</div>
+<h1>Tubes – Compact handles before the long guide</h1>
+<div class="sub">Three classifications + Tri-Zone compression framework. Click a bold term to hide/reveal the definition. Study mode hides everything until clicked.</div>
+<section>
+<h2>Fastest handle</h2>
+<details>
+<summary>One-line order + mission map</summary>
+<ul>
+<li><b>Order string</b>: Culture → Blue → Red/Gold → Green → Lavender → Gray.</li>
+<li><b>Culture</b>: Blood cultures ask whether something alive is in the blood.</li>
+<li><b>Blue</b>: Light blue is the coagulation tube.</li>
+<li><b>Red/Gold</b>: These are the serum chemistry and serology tubes.</li>
+<li><b>Green</b>: This is the rapid plasma chemistry tube.</li>
+<li><b>Lavender</b>: This is the cells and hematology tube.</li>
+<li><b>Gray</b>: This is the sugar-preservation tube for glucose, lactate, and ethanol workups.</li>
+</ul>
+</details>
+<details>
+<summary>The shortest memory hook</summary>
+<ul>
+<li><b>Big picture</b>: Solutes after clotting → Red/Gold; solutes without clotting → Green; clotting system itself → Blue; cells → Lavender; sugar preservation → Gray; microbes → Cultures.</li>
+<li><b>Fast phrase</b>: Bugs → Clotting → Serum → Plasma chemistry → Cells → Sugar.</li>
+<li><b>Why this works</b>: It groups tubes by lab mission first, so you do not have to memorize every single test as an isolated color fact.</li>
+</ul>
+</details>
+</section>
+<section>
+<h2>Classification 1: by specimen type</h2>
+<details>
+<summary>Serum vs plasma vs whole blood vs culture specimen</summary>
+<ul>
+<li><b>Serum tubes</b>: Red and Gold/SST; blood is allowed to clot first, then the liquid portion tested is serum.</li>
+<li><b>Plasma tubes</b>: Light blue, Green, and Gray; anticoagulants prevent clotting, so the liquid portion tested is plasma.</li>
+<li><b>Plasma vs whole blood</b>: Plasma is the liquid portion of anticoagulated blood after cells are separated out; whole blood still contains the cells suspended in that liquid.</li>
+<li><b>Whole blood / cell tube</b>: Lavender is best treated as the cell tube because many of its big uses depend on intact blood cells and whole-blood analysis rather than plasma alone.</li>
+<li><b>Culture specimen</b>: Blood cultures live outside the serum/plasma split because their job is to grow or detect organisms.</li>
+<li><b>Why classification by specimen type is useful</b>: It tells you what kind of specimen the lab actually wants before you worry about the individual test menu.</li>
+</ul>
+</details>
+<details>
+<summary>Quick examples by specimen type</summary>
+<ul>
+<li><b>Serum examples</b>: CMP, liver tests, lipids, thyroid tests, serologies, many hormone or antibody studies.</li>
+<li><b>Plasma examples</b>: PT/INR and aPTT in blue, STAT chemistries in green, glucose and lactate preservation in gray.</li>
+<li><b>Whole blood examples</b>: CBC, differential, smear, platelets, and HbA1c commonly live in lavender.</li>
+<li><b>Culture examples</b>: Aerobic and anaerobic blood cultures are the classic first draw.</li>
+</ul>
+</details>
+</section>
+<section>
+<h2>Classification 2: by additive</h2>
+<details>
+<summary>What the additive is doing</summary>
+<ul>
+<li><b>No anticoagulant / clot first</b>: Red and Gold/SST are the serum tubes; Gold adds clot activator plus separator gel.</li>
+<li><b>Citrate</b>: Light blue preserves clotting factors for coagulation studies by binding calcium in a controlled ratio.</li>
+<li><b>Heparin</b>: Green prevents clotting through thrombin inhibition and is the classic rapid chemistry tube.</li>
+<li><b>EDTA</b>: Lavender chelates calcium strongly and preserves cellular detail for hematology.</li>
+<li><b>Fluoride / oxalate</b>: Gray both prevents clotting and slows glycolysis so glucose does not get eaten by the cells.</li>
+<li><b>SPS</b>: Blood culture bottles use SPS to support microbiology workflow rather than routine chemistry or hematology logic.</li>
+</ul>
+</details>
+<details>
+<summary>Why classification by additive is useful</summary>
+<ul>
+<li><b>Carryover logic</b>: Order of draw matters because additive contamination can distort downstream results.</li>
+<li><b>Chemistry logic</b>: If you know what the additive does, the test families stop feeling random.</li>
+<li><b>Exam logic</b>: Questions often hide the answer in the additive rather than in the cap color.</li>
+</ul>
+</details>
+</section>
+<section>
+<h2>Classification 3: by test family</h2>
+<details>
+<summary>What kind of problem lives in what tube</summary>
+<ul>
+<li><b>Microbiology</b>: Blood cultures live here because the question is whether an organism is present in the bloodstream.</li>
+<li><b>Coagulation</b>: Blue owns PT/INR, aPTT, fibrinogen, D-dimer, and factor workups.</li>
+<li><b>Serum chemistry / serology</b>: Red and Gold own routine chemistry, immunology, hormones, antibodies, and many drug levels.</li>
+<li><b>Rapid plasma chemistry</b>: Green is the fast chemistry lane when you do not want to wait for clotting.</li>
+<li><b>Hematology / cells</b>: Lavender owns CBC, differential, smear logic, and other cell-centered studies.</li>
+<li><b>Sugar preservation</b>: Gray owns glucose, lactate, and ethanol because metabolism must be slowed after the draw.</li>
+</ul>
+</details>
+<details>
+<summary>Compact exam mapping</summary>
+<ul>
+<li><b>PT / INR / aPTT / D-dimer</b>: Think Blue.</li>
+<li><b>CBC / Hgb / Hct / platelets / differential / HbA1c</b>: Think Lavender.</li>
+<li><b>BMP / CMP / AST / ALT / cholesterol / TSH / antibodies</b>: Think Red or Gold.</li>
+<li><b>STAT electrolytes / some troponins / ammonia</b>: Think Green.</li>
+<li><b>Glucose / lactate / ethanol</b>: Think Gray.</li>
+<li><b>Blood cultures</b>: Think culture bottles first.</li>
+</ul>
+</details>
+</section>
+<section>
+<h2>Tri-Zone compression framework</h2>
+<div class="panel-figure"><img alt="Order of draw diagram" src="assets/img/order-of-draw.jpg"/><div class="imgCap">Order of draw reference</div></div>
+<details>
+<summary>Zone 1: The “Pure” Start (Sterile &amp; Citrate)</summary>
+<ul>
+<li><b>Logic</b>: These go first because they are the most sensitive to contamination from later additives.</li>
+<li><b>The Guard</b>: Blood Cultures and Light Blue.</li>
+<li><b>Encoding Key</b>: Preserve the state. Cultures preserve the bacterial state; Blue preserves the natural clotting time.</li>
+<li><b>Why first</b>: Both are vulnerable to additive carryover from later tubes.</li>
+</ul>
+</details>
+<details>
+<summary>Zone 2: The “Natural” Middle (The Serum Block)</summary>
+<ul>
+<li><b>Logic</b>: These are the only routine tubes where we deliberately allow the blood to clot.</li>
+<li><b>The Guard</b>: Red and Gold/SST.</li>
+<li><b>Encoding Key</b>: The Clotting Gap.</li>
+<li><b>Recall Trick</b>: If it has a “S” — Serum, SST — it lives in the middle block.</li>
+</ul>
+</details>
+<details>
+<summary>Zone 3: The “Locked” End (The Electrolyte &amp; Metabolic Block)</summary>
+<ul>
+<li><b>Logic</b>: These use increasingly directive chemistry to lock, preserve, or channel what the lab wants to measure.</li>
+<li><b>The Guard</b>: Green, Lavender, and Gray.</li>
+<li><b>The Chelation Ladder</b>: Green = the soft lock; Lavender = the hard lock; Gray = the final lock.</li>
+<li><b>Encoding Key</b>: Increasing interference — from anticoagulation, to strong calcium capture, to anticoagulation plus glycolysis suppression.</li>
+</ul>
+</details>
+</section>
+<section>
+<h2>Compact comparison grid</h2>
+<details>
+<summary>Tube | additive / specimen | what lives there</summary>
+<table>
+<thead>
+<tr>
+<th>Tube</th>
+<th>Additive / specimen</th>
+<th>What lives there</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blood cultures</td>
+<td>SPS / culture specimen</td>
+<td>Microbiology, bloodstream infection workups</td>
+</tr>
+<tr>
+<td>Light blue</td>
+<td>Sodium citrate / plasma</td>
+<td>Coagulation: PT/INR, aPTT, fibrinogen, D-dimer</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>Clot first / serum</td>
+<td>Serum chemistry, serology, hormones, antibodies, drug levels</td>
+</tr>
+<tr>
+<td>Gold / SST</td>
+<td>Clot activator + gel / serum</td>
+<td>Routine serum chemistry, many chemistry and serology panels</td>
+</tr>
+<tr>
+<td>Green</td>
+<td>Heparin / plasma</td>
+<td>Rapid plasma chemistry, often STAT</td>
+</tr>
+<tr>
+<td>Lavender</td>
+<td>EDTA / whole blood</td>
+<td>Hematology and cell-based testing</td>
+</tr>
+<tr>
+<td>Gray</td>
+<td>Fluoride + oxalate / plasma</td>
+<td>Glucose, lactate, ethanol, glycolysis-sensitive studies</td>
+</tr>
+</tbody>
+</table>
+</details>
+</section>
+</div>
+
 <div aria-label="Skeletal notes" class="tab-panel" id="panel-skeletal" role="tabpanel">
 <div class="toolbar">
 <button onclick="toggleAll('skeletal', true)" type="button">Expand all</button>
