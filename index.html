@@ -1,12 +1,11 @@
 
-
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Anatomy Notes – Vitals + Tubes + Skeletal + Muscular + Heart + Blood + Respiratory + Skin</title>
+<title>Anatomy Notes – Vitals + Skeletal + Muscular + Heart + Blood + Respiratory + Skin + Reproductive + Urinary + Nervous</title>
 <link href="assets/css/styles.css" rel="stylesheet"/>
 <style>
     h3{ margin:0 0 8px 0; font-size:1rem; }
@@ -72,13 +71,15 @@
 <div class="wrap">
 <div aria-label="Notes tabs" class="tabbar" role="tablist">
 <button class="active-tab" data-tab="vitals" role="tab" type="button">Vitals</button>
-<button data-tab="tubes" role="tab" type="button">Tubes</button>
 <button data-tab="skeletal" role="tab" type="button">Skeletal</button>
 <button data-tab="muscular" role="tab" type="button">Muscular</button>
 <button data-tab="heart" role="tab" type="button">Heart</button>
 <button data-tab="blood" role="tab" type="button">Blood</button>
 <button data-tab="respiratory" role="tab" type="button">Respiratory</button>
 <button data-tab="skin" role="tab" type="button">Skin</button>
+<button data-tab="reproductive" role="tab" type="button">Reproductive</button>
+<button data-tab="urinary" role="tab" type="button">Urinary</button>
+<button data-tab="nervous" role="tab" type="button">Nervous</button>
 </div>
 <div aria-label="Vitals notes" class="tab-panel active" id="panel-vitals" role="tabpanel">
 <div class="toolbar">
@@ -577,192 +578,6 @@
 </details>
 </section>
 </div>
-<div aria-label="Tubes notes" class="tab-panel" id="panel-tubes" role="tabpanel">
-<div class="toolbar">
-<button onclick="toggleAll('tubes', true)" type="button">Expand all</button>
-<button onclick="toggleAll('tubes', false)" type="button">Collapse all</button>
-<button id="studyToggle-tubes" type="button">Study mode</button>
-</div>
-<h1>Tubes – Compact handles before the long guide</h1>
-<div class="sub">Three classifications + Tri-Zone compression framework. Click a bold term to hide/reveal the definition. Study mode hides everything until clicked.</div>
-<section>
-<h2>Fastest handle</h2>
-<details>
-<summary>One-line order + mission map</summary>
-<ul>
-<li><b>Order string</b>: Culture → Blue → Red/Gold → Green → Lavender → Gray.</li>
-<li><b>Culture</b>: Blood cultures ask whether something alive is in the blood.</li>
-<li><b>Blue</b>: Light blue is the coagulation tube.</li>
-<li><b>Red/Gold</b>: These are the serum chemistry and serology tubes.</li>
-<li><b>Green</b>: This is the rapid plasma chemistry tube.</li>
-<li><b>Lavender</b>: This is the cells and hematology tube.</li>
-<li><b>Gray</b>: This is the sugar-preservation tube for glucose, lactate, and ethanol workups.</li>
-</ul>
-</details>
-<details>
-<summary>The shortest memory hook</summary>
-<ul>
-<li><b>Big picture</b>: Solutes after clotting → Red/Gold; solutes without clotting → Green; clotting system itself → Blue; cells → Lavender; sugar preservation → Gray; microbes → Cultures.</li>
-<li><b>Fast phrase</b>: Bugs → Clotting → Serum → Plasma chemistry → Cells → Sugar.</li>
-<li><b>Why this works</b>: It groups tubes by lab mission first, so you do not have to memorize every single test as an isolated color fact.</li>
-</ul>
-</details>
-</section>
-<section>
-<h2>Classification 1: by specimen type</h2>
-<details>
-<summary>Serum vs plasma vs whole blood vs culture specimen</summary>
-<ul>
-<li><b>Serum tubes</b>: Red and Gold/SST; blood is allowed to clot first, then the liquid portion tested is serum.</li>
-<li><b>Plasma tubes</b>: Light blue, Green, and Gray; anticoagulants prevent clotting, so the liquid portion tested is plasma.</li>
-<li><b>Plasma vs whole blood</b>: These are not the same specimen. Plasma is the liquid portion separated from anticoagulated blood; whole blood still includes the cellular elements in the sample.</li>
-<li><b>Whole blood / cell tube</b>: Lavender is best treated as the cell tube because many of its big uses depend on intact blood cells and whole-blood analysis.</li>
-<li><b>Culture specimen</b>: Blood cultures live outside the serum/plasma split because their job is to grow or detect organisms.</li>
-<li><b>Why classification by specimen type is useful</b>: It tells what kind of specimen the lab actually wants before attention shifts to the individual test menu.</li>
-</ul>
-</details>
-<details>
-<summary>Quick examples by specimen type</summary>
-<ul>
-<li><b>Serum examples</b>: CMP, liver tests, lipids, thyroid tests, serologies, many hormone or antibody studies.</li>
-<li><b>Plasma examples</b>: PT/INR and aPTT in blue, STAT chemistries in green, glucose and lactate preservation in gray.</li>
-<li><b>Whole blood examples</b>: CBC, differential, smear, platelets, and HbA1c commonly live in lavender.</li>
-<li><b>Culture examples</b>: Aerobic and anaerobic blood cultures are the classic first draw.</li>
-</ul>
-</details>
-</section>
-<section>
-<h2>Classification 2: by additive</h2>
-<details>
-<summary>What the additive is doing</summary>
-<ul>
-<li><b>No anticoagulant / clot first</b>: Red and Gold/SST are the serum tubes; Gold adds clot activator plus separator gel.</li>
-<li><b>Citrate</b>: Light blue preserves clotting factors for coagulation studies by binding calcium in a controlled ratio.</li>
-<li><b>Heparin</b>: Green prevents clotting through thrombin inhibition and is the classic rapid chemistry tube.</li>
-<li><b>EDTA</b>: Lavender chelates calcium strongly and preserves cellular detail for hematology.</li>
-<li><b>Fluoride / oxalate</b>: Gray both prevents clotting and slows glycolysis so glucose does not get eaten by the cells.</li>
-<li><b>SPS</b>: Blood culture bottles use SPS to support microbiology workflow rather than routine chemistry or hematology logic.</li>
-</ul>
-</details>
-<details>
-<summary>Why classification by additive is useful</summary>
-<ul>
-<li><b>Carryover logic</b>: Order of draw matters because additive contamination can distort downstream results.</li>
-<li><b>Chemistry logic</b>: If you know what the additive does, the test families stop feeling random.</li>
-<li><b>Exam logic</b>: Questions often hide the answer in the additive rather than in the cap color.</li>
-</ul>
-</details>
-</section>
-<section>
-<h2>Classification 3: by test family</h2>
-<details>
-<summary>What kind of problem lives in what tube</summary>
-<ul>
-<li><b>Microbiology</b>: Blood cultures live here because the question is whether an organism is present in the bloodstream.</li>
-<li><b>Coagulation</b>: Blue owns PT/INR, aPTT, fibrinogen, D-dimer, and factor workups.</li>
-<li><b>Serum chemistry / serology</b>: Red and Gold own routine chemistry, immunology, hormones, antibodies, and many drug levels.</li>
-<li><b>Rapid plasma chemistry</b>: Green is the fast chemistry lane when you do not want to wait for clotting.</li>
-<li><b>Hematology / cells</b>: Lavender owns CBC, differential, smear logic, and other cell-centered studies.</li>
-<li><b>Sugar preservation</b>: Gray owns glucose, lactate, and ethanol because metabolism must be slowed after the draw.</li>
-</ul>
-</details>
-<details>
-<summary>Compact exam mapping</summary>
-<ul>
-<li><b>PT / INR / aPTT / D-dimer</b>: Think Blue.</li>
-<li><b>CBC / Hgb / Hct / platelets / differential / HbA1c</b>: Think Lavender.</li>
-<li><b>BMP / CMP / AST / ALT / cholesterol / TSH / antibodies</b>: Think Red or Gold.</li>
-<li><b>STAT electrolytes / some troponins / ammonia</b>: Think Green.</li>
-<li><b>Glucose / lactate / ethanol</b>: Think Gray.</li>
-<li><b>Blood cultures</b>: Think culture bottles first.</li>
-</ul>
-</details>
-</section>
-<section>
-<h2>Tri-Zone compression framework</h2>
-<div class="panel-figure"><img alt="Order of draw diagram for blood collection tubes" src="assets/img/order-of-draw.jpg"/><div class="imgCap">Order of draw visual anchor.</div></div>
-<details>
-<summary>Zone 1: The “Pure” Start (Sterile &amp; Citrate)</summary>
-<ul>
-<li><b>Logic</b>: These go first because they are the most sensitive to contamination from later additives.</li>
-<li><b>The Guard</b>: Blood Cultures and Light Blue.</li>
-<li><b>Encoding Key</b>: Preserve the state. Cultures preserve the bacterial state; Blue preserves the natural clotting time.</li>
-<li><b>Why first</b>: Both are vulnerable to additive carryover from later tubes.</li>
-</ul>
-</details>
-<details>
-<summary>Zone 2: The “Natural” Middle (The Serum Block)</summary>
-<ul>
-<li><b>Logic</b>: These are the only routine tubes where we deliberately allow the blood to clot.</li>
-<li><b>The Guard</b>: Red and Gold/SST.</li>
-<li><b>Encoding Key</b>: The Clotting Gap.</li>
-<li><b>Recall Trick</b>: If it has a “S” — Serum, SST — it lives in the middle block.</li>
-</ul>
-</details>
-<details>
-<summary>Zone 3: The “Locked” End (The Electrolyte &amp; Metabolic Block)</summary>
-<ul>
-<li><b>Logic</b>: These use increasingly directive chemistry to lock, preserve, or channel what the lab wants to measure.</li>
-<li><b>The Guard</b>: Green, Lavender, and Gray.</li>
-<li><b>The Chelation Ladder</b>: Green = the soft lock; Lavender = the hard lock; Gray = the final lock.</li>
-<li><b>Encoding Key</b>: Increasing interference — from anticoagulation, to strong calcium capture, to anticoagulation plus glycolysis suppression.</li>
-</ul>
-</details>
-</section>
-<section>
-<h2>Compact comparison grid</h2>
-<details>
-<summary>Tube | additive / specimen | what lives there</summary>
-<table>
-<thead>
-<tr>
-<th>Tube</th>
-<th>Additive / specimen</th>
-<th>What lives there</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Blood cultures</td>
-<td>SPS / culture specimen</td>
-<td>Microbiology, bloodstream infection workups</td>
-</tr>
-<tr>
-<td>Light blue</td>
-<td>Sodium citrate / plasma</td>
-<td>Coagulation: PT/INR, aPTT, fibrinogen, D-dimer</td>
-</tr>
-<tr>
-<td>Red</td>
-<td>Clot first / serum</td>
-<td>Serum chemistry, serology, hormones, antibodies, drug levels</td>
-</tr>
-<tr>
-<td>Gold / SST</td>
-<td>Clot activator + gel / serum</td>
-<td>Routine serum chemistry, many chemistry and serology panels</td>
-</tr>
-<tr>
-<td>Green</td>
-<td>Heparin / plasma</td>
-<td>Rapid plasma chemistry, often STAT</td>
-</tr>
-<tr>
-<td>Lavender</td>
-<td>EDTA / whole blood</td>
-<td>Hematology and cell-based testing</td>
-</tr>
-<tr>
-<td>Gray</td>
-<td>Fluoride + oxalate / plasma</td>
-<td>Glucose, lactate, ethanol, glycolysis-sensitive studies</td>
-</tr>
-</tbody>
-</table>
-</details>
-</section>
-</div>
-
 <div aria-label="Skeletal notes" class="tab-panel" id="panel-skeletal" role="tabpanel">
 <div class="toolbar">
 <button onclick="toggleAll('skeletal', true)" type="button">Expand all</button>
@@ -2384,7 +2199,864 @@
 </ul>
 </details>
 </section>
+
 </div>
+<div aria-label="Reproductive notes" class="tab-panel" id="panel-reproductive" role="tabpanel">
+<div class="toolbar">
+<button onclick="toggleAll('reproductive', true)" type="button">Expand all</button>
+<button onclick="toggleAll('reproductive', false)" type="button">Collapse all</button>
+<button id="studyToggle-reproductive" type="button">Study mode</button>
+</div>
+<h1>Reproductive System – Anatomy + Cycle Logic + Clinical Language</h1>
+<div class="sub">This tab keeps the same exam-first format: structure → mechanism → what the symptom or surgery term actually means in practice.</div>
+
+<section>
+<h2>1) Reproductive system map (female + male)</h2>
+<details>
+<summary>Female reproductive tract: outside → inside</summary>
+<ul>
+<li><b>Vulva</b>: collective name for the external female genital structures, including the mons pubis, labia majora, labia minora, clitoris, vestibule, and the openings of the urethra and vagina.</li>
+<li><b>Labia majora</b>: larger outer skin folds that protect the more delicate inner vestibular structures.</li>
+<li><b>Labia minora</b>: thinner inner folds that border the vestibule and help protect the urethral and vaginal openings.</li>
+<li><b>Clitoris</b>: highly innervated erectile organ homologous to the penis; its glans is externally visible while the body and crura extend deeper into the perineum.</li>
+<li><b>Vestibule</b>: space enclosed by the labia minora that contains the external urethral opening and vaginal opening.</li>
+<li><b>Greater vestibular glands (Bartholin glands)</b>: mucus-secreting glands near the posterior vestibule that help lubricate the introitus.</li>
+<li><b>Vagina</b>: fibromuscular canal connecting the cervix to the external genital tract; it functions in intercourse, menstrual outflow, and childbirth.</li>
+<li><b>Cervix</b>: lower neck of the uterus that projects into the vagina; it produces mucus, helps regulate sperm passage, and dilates during labor.</li>
+<li><b>Uterus</b>: hollow muscular organ composed mainly of myometrium and lined by endometrium; it supports implantation, pregnancy, and menstrual shedding.</li>
+<li><b>Fundus</b>: dome-shaped superior portion of the uterus above the entry points of the uterine tubes.</li>
+<li><b>Body of uterus</b>: main central portion of the uterus where implantation most commonly occurs.</li>
+<li><b>Isthmus</b>: narrowed segment between the uterine body and cervix.</li>
+<li><b>Endometrium</b>: hormonally responsive mucosal lining that proliferates, differentiates, and sheds during the menstrual cycle.</li>
+<li><b>Myometrium</b>: thick smooth-muscle layer of the uterus responsible for uterine tone, menstruation-associated cramping, and labor contractions.</li>
+<li><b>Perimetrium</b>: outer serosal covering of the uterus.</li>
+<li><b>Uterine tubes / Fallopian tubes</b>: paired tubes that transport the oocyte and are the usual site of fertilization, especially the ampulla.</li>
+<li><b>Ovaries</b>: paired gonads that contain follicles and produce oocytes, estrogen, progesterone, inhibin, and small amounts of androgens.</li>
+</ul>
+</details>
+
+<details>
+<summary>Female support anatomy: why the uterus does not simply “float around”</summary>
+<ul>
+<li><b>Broad ligament</b>: double layer of peritoneum that helps suspend the uterus, tubes, and ovaries, but is more of a mesenteric sheet than a primary load-bearing strap.</li>
+<li><b>Round ligament</b>: fibromuscular band running from the uterus toward the labia majora through the inguinal canal; it helps maintain forward uterine orientation.</li>
+<li><b>Uterosacral ligaments</b>: support the cervix and upper vagina posteriorly and help resist uterine descent.</li>
+<li><b>Cardinal (transverse cervical) ligaments</b>: major condensations of connective tissue supporting the cervix and upper vagina laterally.</li>
+<li><b>Pelvic floor</b>: levator ani and associated connective tissue create the muscular “hammock” that supports pelvic organs and contributes to continence.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: pelvic support is a tension-network problem. Fascia and ligaments stabilize position; the pelvic floor provides active muscular support; when both weaken, prolapse risk rises.</p>
+</details>
+
+<details>
+<summary>Male reproductive tract: production → maturation → delivery</summary>
+<ul>
+<li><b>Testes</b>: paired gonads housed in the scrotum; seminiferous tubules produce sperm and interstitial Leydig cells produce testosterone.</li>
+<li><b>Scrotum</b>: cutaneous sac that keeps the testes cooler than core body temperature, which is necessary for efficient spermatogenesis.</li>
+<li><b>Epididymis</b>: tightly coiled duct on the posterior testis where sperm mature, gain motility, and are stored.</li>
+<li><b>Ductus deferens / vas deferens</b>: thick-walled muscular tube that propels sperm from the epididymis toward the ejaculatory duct.</li>
+<li><b>Seminal vesicles</b>: glands that contribute fructose-rich, alkaline fluid that nourishes sperm and makes up a large share of semen volume.</li>
+<li><b>Prostate gland</b>: gland inferior to the bladder that contributes enzyme-rich fluid helping semen liquefy after ejaculation.</li>
+<li><b>Bulbourethral (Cowper) glands</b>: secrete mucus-like pre-ejaculate that helps lubricate the urethra and buffer acidity.</li>
+<li><b>Ejaculatory ducts</b>: formed by the union of the vas deferens and seminal vesicle ducts; they empty into the prostatic urethra.</li>
+<li><b>Urethra</b>: shared outlet for urine and semen in males, subdivided into prostatic, membranous, and spongy portions.</li>
+<li><b>Penis</b>: external copulatory organ containing erectile tissue and the spongy urethra.</li>
+</ul>
+</details>
+
+<details>
+<summary>Spermatogenesis and ejaculation: the sequence that makes the plumbing make sense</summary>
+<ul>
+<li><b>Spermatogenesis</b>: production of sperm from spermatogonia within seminiferous tubules; supported by Sertoli cells and driven by FSH plus high intratesticular testosterone.</li>
+<li><b>Sertoli cells</b>: “nurse” cells that support germ-cell development, create the blood-testis barrier, and secrete inhibin.</li>
+<li><b>Leydig cells</b>: interstitial cells stimulated mainly by LH to synthesize testosterone.</li>
+<li><b>Emission</b>: sympathetic phase in which sperm and glandular secretions move into the urethra.</li>
+<li><b>Ejaculation</b>: expulsion phase involving coordinated contraction of pelvic floor and reproductive tract smooth muscle.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>2) Menstrual cycle and reproductive hormone logic</h2>
+<details>
+<summary>High-level axis: hypothalamus → pituitary → gonad</summary>
+<ul>
+<li><b>GnRH</b>: gonadotropin-releasing hormone from the hypothalamus stimulates the anterior pituitary.</li>
+<li><b>FSH</b>: follicle-stimulating hormone promotes follicular growth in the ovary and supports granulosa-cell function.</li>
+<li><b>LH</b>: luteinizing hormone drives theca-cell androgen production and, when it surges, triggers ovulation.</li>
+<li><b>Estrogen</b>: mainly estradiol in reproductive years; promotes endometrial proliferation and influences cervical mucus, bone, brain, breast, and vascular tissue.</li>
+<li><b>Progesterone</b>: produced mainly by the corpus luteum after ovulation; converts proliferative endometrium into a secretory implantation-ready lining and decreases uterine contractility.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: the cycle is not random bleeding. It is a timed endocrine choreography whose goal is to recruit a follicle, release an oocyte, and prepare the endometrium for possible implantation.</p>
+</details>
+
+<details>
+<summary>Ovarian cycle: follicular phase → ovulation → luteal phase</summary>
+<ul>
+<li><b>Follicular phase</b>: begins on day 1 of menses; FSH recruits follicles, granulosa cells aromatize androgens into estrogen, and one dominant follicle usually emerges.</li>
+<li><b>Ovulation</b>: estrogen from the dominant follicle rises high enough and long enough to switch from negative to positive feedback, producing the LH surge that triggers follicular rupture.</li>
+<li><b>Luteal phase</b>: after ovulation, the ruptured follicle becomes the corpus luteum, which secretes progesterone and some estrogen.</li>
+<li><b>If pregnancy does not occur</b>: the corpus luteum regresses, progesterone and estrogen fall, spiral arterioles constrict, and the functional endometrium sheds as menstruation.</li>
+</ul>
+</details>
+
+<details>
+<summary>Uterine cycle: menstrual → proliferative → secretory</summary>
+<ul>
+<li><b>Menstrual phase</b>: shedding of the functional endometrial layer after withdrawal of progesterone support.</li>
+<li><b>Proliferative phase</b>: estrogen-driven rebuilding of the endometrium after menstruation.</li>
+<li><b>Secretory phase</b>: progesterone-driven maturation of the endometrium, with glandular secretion and stromal changes that favor implantation.</li>
+</ul>
+</details>
+
+<details>
+<summary>Why the pain and bleeding happen mechanistically</summary>
+<ul>
+<li><b>Menstrual bleeding</b>: loss of hormonal support causes breakdown of the superficial endometrium and exposure of vessels, producing cyclical shedding.</li>
+<li><b>Cramping</b>: endometrial prostaglandins stimulate myometrial contractions and vasoconstriction, producing ischemic pain and uterine squeezing.</li>
+<li><b>Heavy bleeding</b>: can result from increased endometrial surface area, disordered ovulation, impaired uterine contraction, structural lesions, or coagulation disorders.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>3) Clinical language for bleeding, pain, and reproductive transition</h2>
+<details>
+<summary>Menstrual and gynecologic symptom vocabulary</summary>
+<ul>
+<li><b>Amenorrhea</b>: absence of menstrual periods. <span class="tag">a- = without</span> <span class="tag">men = month</span> <span class="tag">-rrhea = flow</span></li>
+<li><b>Primary amenorrhea</b>: no menarche by the expected age range, prompting evaluation of outflow tract, gonadal, endocrine, or chromosomal causes.</li>
+<li><b>Secondary amenorrhea</b>: cessation of previously established menses, commonly due to pregnancy, hypothalamic suppression, hyperprolactinemia, thyroid disease, ovarian failure, or uterine scarring.</li>
+<li><b>Dysmenorrhea</b>: painful menstruation. <span class="tag">dys- = difficult/painful</span> <span class="tag">-menorrhea = menstrual flow</span></li>
+<li><b>Primary dysmenorrhea</b>: painful menses without another pelvic disease, usually caused by excess prostaglandin-mediated uterine contractions.</li>
+<li><b>Secondary dysmenorrhea</b>: painful menses due to an underlying pathology such as endometriosis, adenomyosis, pelvic inflammatory disease, or fibroids.</li>
+<li><b>Menorrhagia</b>: excessively heavy or prolonged cyclic menstrual bleeding.</li>
+<li><b>Metrorrhagia</b>: bleeding at irregular times between expected menstrual periods.</li>
+<li><b>Dyspareunia</b>: genital or pelvic pain associated with sexual intercourse.</li>
+<li><b>Menopause</b>: permanent cessation of menses due to loss of ovarian follicular activity, diagnosed retrospectively after 12 months without menstruation and no other explanation.</li>
+<li><b>Peri-menopause</b>: transitional interval leading into menopause, characterized by cycle irregularity and fluctuating ovarian hormone output.</li>
+</ul>
+</details>
+
+<details>
+<summary>Mechanism notes: what these terms imply under the hood</summary>
+<ul>
+<li><b>Amenorrhea mechanism</b>: the cycle can disappear because the signal never starts, the ovary does not respond, the endometrium is not being cyclically stimulated, or blood cannot exit normally.</li>
+<li><b>Dysmenorrhea mechanism</b>: pain rises when prostaglandins intensify uterine contraction and vasoconstriction, or when another pathology distorts pelvic tissues and amplifies inflammation.</li>
+<li><b>Menorrhagia mechanism</b>: the patient is bleeding “too much” either because the endometrium is unstable and overgrown, a lesion increases vascular surface, or hemostasis/myometrial compression is inadequate.</li>
+<li><b>Metrorrhagia mechanism</b>: irregular bleeding often reflects anovulation, endometrial instability, cervical lesions, infection, polyps, fibroids, or pregnancy-related causes.</li>
+<li><b>Dyspareunia mechanism</b>: pain may arise from inadequate lubrication, vulvovaginal inflammation, pelvic floor spasm, endometriosis, vaginal atrophy, scarring, or deep pelvic pathology.</li>
+<li><b>Peri-menopause mechanism</b>: follicular reserve declines, ovulation becomes inconsistent, and estrogen/progesterone output becomes erratic, so bleeding patterns and vasomotor symptoms become unpredictable.</li>
+<li><b>Menopause mechanism</b>: ovarian estrogen production falls sharply once active follicles are exhausted, so FSH and LH rise while endometrial cycling ends.</li>
+</ul>
+</details>
+
+<details>
+<summary>Common symptoms and practical associations</summary>
+<ul>
+<li><b>Amenorrhea</b>: always think pregnancy first in reproductive-age patients before wandering into more exotic endocrine territory.</li>
+<li><b>Dysmenorrhea</b>: if pain begins years after previously tolerable periods or is progressively worsening, secondary causes deserve more suspicion.</li>
+<li><b>Menorrhagia</b>: can contribute to iron-deficiency anemia, fatigue, pallor, tachycardia, and decreased exercise tolerance.</li>
+<li><b>Metrorrhagia</b>: raises concern for hormonal instability, pregnancy-related complications, endometrial pathology, or cervical disease depending on age and context.</li>
+<li><b>Dyspareunia</b>: location matters; superficial pain suggests vestibular, vulvar, or lubrication problems, while deep pain pushes deeper pelvic pathology higher on the list.</li>
+<li><b>Peri-menopause / Menopause</b>: hot flashes, sleep disturbance, mood change, vaginal dryness, decreased lubrication, and urogenital atrophy become common clinical themes.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>4) Uterine positions and why they matter</h2>
+<details>
+<summary>Normal uterine orientation</summary>
+<ul>
+<li><b>Anteverted uterus</b>: the cervix and uterine body tilt forward relative to the vagina.</li>
+<li><b>Anteflexed uterus</b>: the uterine body bends forward over the bladder relative to the cervix.</li>
+<li><b>Normal position in many adults</b>: anteverted and anteflexed, which places the fundus over the bladder and the cervix angled posteriorly within the vagina.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: “verted” describes tilt of the whole uterus relative to the vagina; “flexed” describes bend of the uterine body relative to the cervix.</p>
+</details>
+
+<details>
+<summary>Abnormal or variant positions commonly discussed</summary>
+<ul>
+<li><b>Retroverted uterus</b>: the uterus tilts backward instead of forward.</li>
+<li><b>Retroflexed uterus</b>: the uterine body bends backward relative to the cervix.</li>
+<li><b>Marked retroversion / retroflexion</b>: can be a normal anatomic variant, but may also be associated with pelvic adhesions, endometriosis, or prolapse depending on context.</li>
+</ul>
+</details>
+
+<details>
+<summary>Clinical significance</summary>
+<ul>
+<li><b>Symptoms</b>: many patients have no symptoms, but some report pelvic pressure, dysmenorrhea, deep dyspareunia, tampon difficulties, or low back discomfort.</li>
+<li><b>Exam and imaging</b>: position affects how the cervix presents on pelvic exam and how the uterus is visualized or sounded during procedures.</li>
+<li><b>Pregnancy</b>: a retroverted uterus usually corrects as the uterus enlarges, though rare complications can occur.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>5) Hysterectomy vocabulary: what is actually removed</h2>
+<details>
+<summary>Core hysterectomy types</summary>
+<ul>
+<li><b>Supracervical (subtotal) hysterectomy</b>: removes the uterine body while leaving the cervix in place.</li>
+<li><b>Total hysterectomy</b>: removes the uterus and cervix.</li>
+<li><b>Total hysterectomy with salpingo-oophorectomy</b>: removes the uterus and cervix plus one or both uterine tubes and ovaries, depending on whether the procedure is unilateral or bilateral.</li>
+<li><b>Total hysterectomy with bilateral salpingo-oophorectomy (BSO)</b>: removes uterus, cervix, both tubes, and both ovaries.</li>
+<li><b>Radical hysterectomy</b>: removes the uterus, cervix, surrounding parametrial tissue, and often the upper vagina; it is usually used for certain gynecologic malignancies.</li>
+</ul>
+</details>
+
+<details>
+<summary>Why the added words matter</summary>
+<ul>
+<li><b>Salpingectomy</b>: removal of a uterine tube.</li>
+<li><b>Oophorectomy</b>: removal of an ovary.</li>
+<li><b>Salpingo-oophorectomy</b>: removal of the tube and ovary on the same side.</li>
+<li><b>Unilateral</b>: one side removed.</li>
+<li><b>Bilateral</b>: both sides removed.</li>
+</ul>
+</details>
+
+<details>
+<summary>Functional consequences</summary>
+<ul>
+<li><b>If the uterus is removed but ovaries remain</b>: menstruation stops and pregnancy is no longer possible, but ovarian hormone production can continue until natural menopause.</li>
+<li><b>If both ovaries are removed before natural menopause</b>: surgical menopause occurs abruptly because ovarian estrogen and progesterone production drop suddenly.</li>
+<li><b>If the cervix is retained</b>: cervical screening considerations can differ from those after total hysterectomy, depending on history and indication.</li>
+<li><b>Radical procedures</b>: may carry additional risks related to nearby ureteral, bladder, bowel, vascular, nerve, and sexual function anatomy because more tissue is dissected.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>6) Common reproductive pathology and exam language</h2>
+<details>
+<summary>Common female conditions</summary>
+<ul>
+<li><b>Endometriosis</b>: ectopic endometrial-like tissue outside the uterus that cyclically responds to hormones, driving inflammation, scarring, dysmenorrhea, dyspareunia, infertility, and chronic pelvic pain.</li>
+<li><b>Adenomyosis</b>: endometrial glands and stroma located within the myometrium, often causing an enlarged tender uterus, heavy bleeding, and painful periods.</li>
+<li><b>Leiomyoma (fibroid)</b>: benign smooth-muscle tumor of the myometrium that can produce bulk symptoms, menorrhagia, infertility, or pressure effects depending on size and location.</li>
+<li><b>Pelvic inflammatory disease (PID)</b>: ascending infection of the upper female reproductive tract that can scar the tubes and raise infertility and ectopic pregnancy risk.</li>
+<li><b>Ectopic pregnancy</b>: implantation outside the uterine cavity, most commonly in the tube; dangerous because a growing gestation can rupture vascular tissue and cause life-threatening hemorrhage.</li>
+</ul>
+</details>
+
+<details>
+<summary>Common male conditions</summary>
+<ul>
+<li><b>Benign prostatic hyperplasia (BPH)</b>: nonmalignant enlargement of the periurethral transition zone of the prostate that narrows urinary outflow and causes hesitancy, weak stream, and incomplete emptying.</li>
+<li><b>Prostatitis</b>: inflammation or infection of the prostate causing pelvic pain, urinary symptoms, and sometimes fever or tender exam findings.</li>
+<li><b>Epididymitis</b>: inflammation of the epididymis, often infectious, producing unilateral scrotal pain and swelling.</li>
+<li><b>Testicular torsion</b>: twisting of the spermatic cord that cuts off blood flow to the testis; this is a time-sensitive emergency because ischemic injury progresses quickly.</li>
+<li><b>Varicocele</b>: abnormal dilation of pampiniform plexus veins, classically described as a “bag of worms,” which can impair fertility by disrupting scrotal temperature control.</li>
+</ul>
+</details>
+
+<details>
+<summary>Exam and procedure language</summary>
+<ul>
+<li><b>Menarche</b>: first menstrual period.</li>
+<li><b>Gravida</b>: total number of pregnancies.</li>
+<li><b>Para</b>: number of births reaching viable gestational age thresholds as defined clinically.</li>
+<li><b>Speculum exam</b>: visual examination of the vagina and cervix using a speculum.</li>
+<li><b>Bimanual exam</b>: palpation technique using abdominal and vaginal hands together to assess uterine size, position, mobility, and adnexal tenderness or mass.</li>
+<li><b>Pap test / cervical cytology</b>: screening test sampling cervical cells for dysplasia and cancer prevention.</li>
+<li><b>Orchiectomy</b>: surgical removal of a testis.</li>
+<li><b>Vasectomy</b>: interruption of the vas deferens to block sperm delivery into ejaculate.</li>
+</ul>
+</details>
+</section>
+</div>
+<div aria-label="Urinary notes" class="tab-panel" id="panel-urinary" role="tabpanel">
+<div class="toolbar">
+<button onclick="toggleAll('urinary', true)" type="button">Expand all</button>
+<button onclick="toggleAll('urinary', false)" type="button">Collapse all</button>
+<button id="studyToggle-urinary" type="button">Study mode</button>
+</div>
+<h1>Urinary System – Filtration Logic + Clinical Language + Pathology</h1>
+<div class="sub">Same structure as the other tabs: map the anatomy first, then the mechanism, then the symptom vocabulary and disease logic that show up on exams and in clinic.</div>
+
+<section>
+<h2>1) Urinary system map: kidney → ureter → bladder → urethra</h2>
+<details>
+<summary>High-level organ map</summary>
+<ul>
+<li><b>Kidneys</b>: paired retroperitoneal organs that filter plasma, regulate water and electrolytes, help control blood pressure, contribute to acid-base balance, and perform endocrine functions such as erythropoietin production and vitamin D activation.</li>
+<li><b>Ureters</b>: paired muscular tubes that carry urine from the renal pelvis to the bladder by peristaltic smooth-muscle contraction rather than by gravity alone.</li>
+<li><b>Urinary bladder</b>: distensible muscular reservoir that stores urine until coordinated micturition occurs.</li>
+<li><b>Urethra</b>: outlet tube that carries urine from the bladder to the exterior; it is short in females and longer in males, which matters clinically for infection risk and catheterization anatomy.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: the urinary system is not just a drainpipe. It is a pressure-regulated, selectively permeable processing line that decides what stays in blood and what leaves as urine.</p>
+</details>
+
+<details>
+<summary>Kidney gross anatomy: outside → inside</summary>
+<ul>
+<li><b>Renal capsule</b>: tough fibrous covering directly adherent to the kidney surface.</li>
+<li><b>Renal cortex</b>: outer region containing renal corpuscles plus proximal and distal convoluted tubules.</li>
+<li><b>Renal medulla</b>: deeper region organized into pyramids, rich in loops of Henle and collecting ducts.</li>
+<li><b>Renal pyramids</b>: cone-like medullary units whose apices direct urine toward the papillae.</li>
+<li><b>Renal papilla</b>: tip of a pyramid where collecting ducts empty into a minor calyx.</li>
+<li><b>Minor calyx</b>: cup receiving urine from a papilla.</li>
+<li><b>Major calyx</b>: larger channel formed by union of minor calyces.</li>
+<li><b>Renal pelvis</b>: funnel-like proximal ureter collecting urine from the major calyces.</li>
+<li><b>Hilum</b>: medial entry and exit point for the renal artery, renal vein, nerves, lymphatics, and renal pelvis/ureter.</li>
+<li><b>Renal sinus</b>: fat-filled internal space housing calyces, pelvis, vessels, and other structures.</li>
+</ul>
+</details>
+
+<details>
+<summary>Flow of urine: production point → excretion</summary>
+<ol>
+<li><b>Glomerulus → Bowman space</b>: plasma is filtered across the filtration barrier, and the ultrafiltrate first appears in Bowman space rather than directly in the renal pelvis.</li>
+<li><b>Proximal convoluted tubule</b>: bulk reabsorption pulls back most filtered water, sodium, bicarbonate, glucose, and amino acids, so the fluid is already being reshaped rather than merely moved.</li>
+<li><b>Loop of Henle</b>: descending segments favor water movement, while ascending segments favor salt reabsorption, helping build the medullary gradient used to concentrate urine.</li>
+<li><b>Distal convoluted tubule</b>: fine-tunes electrolyte handling under hormonal influence.</li>
+<li><b>Collecting duct</b>: the final adjustable pipeline where ADH strongly influences how much water is reclaimed; this is where the filtrate becomes the final urine composition in a practical sense.</li>
+<li><b>Papillary duct → renal papilla</b>: urine exits the nephron and empties at the papilla.</li>
+<li><b>Minor calyx → major calyx → renal pelvis</b>: collecting-system channels converge and funnel urine toward the ureter.</li>
+<li><b>Ureter</b>: smooth-muscle peristalsis propels urine toward the bladder.</li>
+<li><b>Urinary bladder</b>: stores urine until micturition is triggered.</li>
+<li><b>Urethra → external urethral orifice</b>: urine passes through the outlet and leaves the body.</li>
+</ol>
+<p class="note"><b>Exam logic</b>: production begins with filtration, but the final urine is not really “finished” until the tubules and collecting duct have modified that filtrate.</p>
+</details>
+
+<details>
+<summary>Bladder and outlet anatomy</summary>
+<ul>
+<li><b>Detrusor muscle</b>: smooth muscle forming the bladder wall; it contracts to expel urine.</li>
+<li><b>Trigone</b>: smooth triangular area between the two ureteric openings and the internal urethral opening; clinically important because it is fixed and sensitive to irritation.</li>
+<li><b>Internal urethral sphincter</b>: functional smooth-muscle outlet resistance at the bladder neck; under autonomic control.</li>
+<li><b>External urethral sphincter</b>: skeletal muscle under somatic control that allows voluntary continence.</li>
+<li><b>Pelvic floor</b>: muscular support system that helps maintain continence and supports the bladder neck and urethra.</li>
+</ul>
+</details>
+
+<details>
+<summary>Blood supply: how plasma reaches the filter</summary>
+<ul>
+<li><b>Renal artery</b>: delivers high-volume blood flow to the kidney.</li>
+<li><b>Segmental → interlobar → arcuate → cortical radiate arteries</b>: progressive branching pattern supplying the cortex and medulla.</li>
+<li><b>Afferent arteriole</b>: vessel bringing blood into the glomerular capillary tuft.</li>
+<li><b>Glomerulus</b>: specialized capillary network where filtration begins.</li>
+<li><b>Efferent arteriole</b>: vessel leaving the glomerulus; unusual because another capillary bed follows it rather than a venule immediately.</li>
+<li><b>Peritubular capillaries</b>: cortical capillary network reclaiming water and solutes from tubules.</li>
+<li><b>Vasa recta</b>: straight medullary vessels that preserve the osmotic gradient needed for urine concentration.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>2) The nephron: the functional unit that makes urine</h2>
+<details>
+<summary>Nephron parts in sequence</summary>
+<ul>
+<li><b>Renal corpuscle</b>: glomerulus plus Bowman capsule; site where the filtrate first enters the nephron.</li>
+<li><b>Bowman capsule</b>: double-walled epithelial cup that receives filtrate from glomerular capillaries.</li>
+<li><b>Proximal convoluted tubule (PCT)</b>: early tubular segment that reabsorbs most filtered sodium, water, glucose, amino acids, and bicarbonate.</li>
+<li><b>Loop of Henle</b>: descending and ascending limbs that create the medullary osmotic gradient necessary for concentrated urine.</li>
+<li><b>Distal convoluted tubule (DCT)</b>: fine-tunes electrolyte handling, especially sodium, chloride, calcium, and acid-base balance.</li>
+<li><b>Collecting duct</b>: final adjustable segment where ADH strongly influences water reabsorption and urine concentration.</li>
+<li><b>Juxtaglomerular apparatus (JGA)</b>: signaling complex where the DCT meets the vascular pole; important for tubuloglomerular feedback and renin release.</li>
+</ul>
+</details>
+
+<details>
+<summary>Filtration barrier: why protein usually stays in blood</summary>
+<ul>
+<li><b>Fenestrated endothelium</b>: glomerular capillary layer allowing water and small solutes through while blocking cells.</li>
+<li><b>Glomerular basement membrane</b>: size- and charge-selective matrix layer that helps restrict large plasma proteins.</li>
+<li><b>Podocytes</b>: visceral epithelial cells whose interdigitating foot processes create slit diaphragms.</li>
+<li><b>Filtration slit diaphragm</b>: final selective barrier between podocyte processes.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: hematuria suggests red cells are crossing a barrier they normally should not cross; significant proteinuria suggests the size/charge barrier has failed or tubular reuptake is overwhelmed.</p>
+</details>
+
+<details>
+<summary>Three core kidney jobs: filtration, reabsorption, secretion</summary>
+<ul>
+<li><b>Filtration</b>: movement of plasma water and small solutes out of the glomerular capillary and into Bowman space.</li>
+<li><b>Reabsorption</b>: movement of needed substances from tubular fluid back into blood.</li>
+<li><b>Secretion</b>: movement of selected substances from blood into tubular fluid for excretion.</li>
+<li><b>Excretion</b>: the final urine output after filtration has been modified by reabsorption and secretion.</li>
+</ul>
+</details>
+
+<details>
+<summary>What each major segment is especially good at</summary>
+<ul>
+<li><b>PCT</b>: bulk reclamation segment; reabsorbs most filtered water and sodium, nearly all glucose and amino acids under normal conditions, and a large share of bicarbonate.</li>
+<li><b>Thin descending limb</b>: highly water-permeable segment that lets water leave into the hyperosmotic medulla.</li>
+<li><b>Thick ascending limb</b>: reabsorbs sodium, potassium, and chloride but is relatively impermeable to water, so it dilutes tubular fluid.</li>
+<li><b>DCT</b>: further sodium and chloride reabsorption; also important for calcium handling under hormonal influence.</li>
+<li><b>Collecting duct principal cells</b>: adjust sodium reabsorption and potassium secretion, especially under aldosterone influence; also respond to ADH for water reabsorption.</li>
+<li><b>Collecting duct intercalated cells</b>: help regulate acid-base balance by secreting hydrogen ions or bicarbonate depending on physiologic need.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>3) Concentrating urine, blood pressure control, and endocrine logic</h2>
+<details>
+<summary>Countercurrent logic: how the kidney makes concentrated urine</summary>
+<ul>
+<li><b>Countercurrent multiplier</b>: loop of Henle mechanism that builds a medullary osmotic gradient by repeated salt movement from the ascending limb while water exits the descending limb.</li>
+<li><b>Countercurrent exchanger</b>: vasa recta arrangement that preserves rather than washes out the medullary gradient.</li>
+<li><b>ADH (antidiuretic hormone)</b>: increases water permeability of the collecting duct by promoting aquaporin insertion, allowing water reabsorption into the hyperosmotic medulla.</li>
+<li><b>Without ADH</b>: collecting ducts stay relatively water-impermeable and urine becomes more dilute.</li>
+<li><b>With high ADH</b>: more water is reclaimed and urine becomes more concentrated.</li>
+</ul>
+</details>
+
+<details>
+<summary>Renin–angiotensin–aldosterone system (RAAS)</summary>
+<ul>
+<li><b>Renin</b>: enzyme released by juxtaglomerular cells when renal perfusion pressure falls, sympathetic tone rises, or the macula densa senses reduced distal sodium chloride delivery.</li>
+<li><b>Angiotensin II</b>: potent vasoconstrictor that helps maintain blood pressure and preferentially constricts the efferent arteriole to support glomerular filtration in low-perfusion states.</li>
+<li><b>Aldosterone</b>: adrenal mineralocorticoid that increases distal sodium reabsorption and potassium secretion.</li>
+<li><b>Net effect</b>: conserve sodium and water, support circulation, and protect perfusion during volume depletion—at the cost of worsening hypertension when the system is overactive.</li>
+</ul>
+</details>
+
+<details>
+<summary>Other endocrine functions of the kidney</summary>
+<ul>
+<li><b>Erythropoietin (EPO)</b>: hormone made mainly by renal interstitial cells that stimulates red blood cell production in the bone marrow when oxygen delivery falls.</li>
+<li><b>Calcitriol</b>: active vitamin D formed after renal 1-alpha hydroxylation; helps increase intestinal calcium and phosphate absorption.</li>
+<li><b>Prostaglandins</b>: locally produced mediators helping maintain renal blood flow, especially in vulnerable states.</li>
+</ul>
+</details>
+
+<details>
+<summary>Acid-base role: why kidneys matter when lungs are not enough</summary>
+<ul>
+<li><b>Bicarbonate reclamation</b>: kidneys reabsorb filtered bicarbonate so it is not wasted in urine.</li>
+<li><b>Hydrogen ion secretion</b>: tubules secrete acid, allowing the body to eliminate fixed acids generated by metabolism.</li>
+<li><b>Ammonium buffering</b>: renal ammoniagenesis lets the kidney package acid for excretion while generating new bicarbonate.</li>
+<li><b>Clinical meaning</b>: failing kidneys contribute to metabolic acidosis because acid excretion and bicarbonate regeneration become inadequate.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>4) Clinical urinary vocabulary: symptoms and what they suggest</h2>
+<details>
+<summary>Voiding and urine-output terms</summary>
+<ul>
+<li><b>Dysuria</b>: pain, burning, or discomfort with urination.</li>
+<li><b>Hematuria</b>: blood in the urine; may be grossly visible or microscopic.</li>
+<li><b>Pyuria</b>: white blood cells or pus in the urine, commonly suggesting inflammation or infection.</li>
+<li><b>Proteinuria</b>: abnormal urinary protein loss.</li>
+<li><b>Albuminuria</b>: urinary albumin excretion above normal, often an early sign of glomerular injury.</li>
+<li><b>Polyuria</b>: abnormally increased urine volume.</li>
+<li><b>Oliguria</b>: abnormally low urine output.</li>
+<li><b>Anuria</b>: near absence of urine output.</li>
+<li><b>Frequency</b>: urinating more often than usual, often in small amounts.</li>
+<li><b>Urgency</b>: sudden hard-to-defer need to void.</li>
+<li><b>Nocturia</b>: waking from sleep to urinate.</li>
+<li><b>Hesitancy</b>: difficulty initiating the urinary stream.</li>
+<li><b>Urinary retention</b>: incomplete bladder emptying or inability to void despite a full bladder.</li>
+<li><b>Incontinence</b>: involuntary leakage of urine.</li>
+</ul>
+</details>
+
+<details>
+<summary>Mechanism notes: how to think about the major symptom terms</summary>
+<ul>
+<li><b>Dysuria mechanism</b>: usually reflects irritation or inflammation of the urethra, bladder mucosa, or surrounding tissues.</li>
+<li><b>Hematuria mechanism</b>: blood can enter urine anywhere from glomerulus to urethra, so the problem may be nephrologic, urologic, traumatic, infectious, neoplastic, or stone-related.</li>
+<li><b>Polyuria mechanism</b>: can arise from osmotic diuresis, impaired ADH function, reduced concentrating ability, or excessive intake.</li>
+<li><b>Oliguria/anuria mechanism</b>: often signals reduced perfusion, severe intrinsic renal injury, or postrenal obstruction.</li>
+<li><b>Frequency and urgency mechanism</b>: commonly reflect bladder irritation, reduced bladder capacity, detrusor overactivity, or outlet obstruction with incomplete emptying.</li>
+<li><b>Retention mechanism</b>: outflow obstruction, detrusor underactivity, medications, or neurologic dysfunction can all prevent efficient emptying.</li>
+</ul>
+</details>
+
+<details>
+<summary>Incontinence types</summary>
+<ul>
+<li><b>Stress incontinence</b>: leakage with increased intra-abdominal pressure such as coughing, laughing, or lifting; usually linked to urethral hypermobility or sphincter weakness.</li>
+<li><b>Urge incontinence</b>: leakage preceded by a strong urge to void; commonly due to detrusor overactivity.</li>
+<li><b>Overflow incontinence</b>: dribbling from an overfilled bladder, often due to retention and chronic outlet obstruction or weak detrusor contraction.</li>
+<li><b>Functional incontinence</b>: leakage because the patient cannot reach or use the toilet in time despite a urinary tract that could otherwise work.</li>
+<li><b>Mixed incontinence</b>: combination of stress and urge features.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>5) Urinalysis and kidney function markers</h2>
+<details>
+<summary>Urinalysis framework: physical, chemical, microscopic</summary>
+<ul>
+<li><b>Physical exam of urine</b>: what the sample looks like before chemistry and microscopy are even considered: color, clarity, odor, and concentration clues.</li>
+<li><b>Chemical urinalysis</b>: dipstick-style testing that detects selected molecules or surrogate markers such as protein, blood, glucose, ketones, nitrites, and leukocyte esterase.</li>
+<li><b>Microscopic urinalysis</b>: direct inspection of the sediment for cells, casts, crystals, bacteria, and other formed elements.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: urinalysis works best when you ask three different questions in order—what does the urine look like, what chemistry does it carry, and what structures are actually in it?</p>
+</details>
+
+<details>
+<summary>Physical urinalysis</summary>
+<ul>
+<li><b>Color</b>: normal urine is often pale yellow to deeper amber depending on concentration, largely due to urochrome pigments.</li>
+<li><b>Clarity</b>: clear urine is common; cloudiness can reflect cells, crystals, bacteria, mucus, or contamination.</li>
+<li><b>Odor</b>: usually mild; strong or unusual odor can reflect concentration, infection, diet, or ketone states, but odor alone is weak evidence.</li>
+<li><b>Specific gravity</b>: practical estimate of concentration; it rises when urine is concentrated and falls when urine is dilute.</li>
+</ul>
+</details>
+
+<details>
+<summary>Urine color patterns and why they matter</summary>
+<ul>
+<li><b>Pale or nearly clear urine</b>: often reflects high water intake or impaired concentrating ability, though context decides whether that is benign.</li>
+<li><b>Dark yellow / amber urine</b>: commonly reflects concentration from reduced water content.</li>
+<li><b>Red or pink urine</b>: can reflect true <b>hematuria</b> (intact red blood cells), hemoglobin, myoglobin, foods, or medications; color alone does not prove the mechanism.</li>
+<li><b>Brown or tea-colored urine</b>: can occur with bilirubin, oxidized blood products, or myoglobin states.</li>
+<li><b>Phenazopyridine (Pyridium)</b>: urinary tract analgesic used to reduce burning and discomfort during dysuria; it can turn urine a striking orange or red-orange color, which is benign as a color change but does <b>not</b> treat the underlying infection or cause.</li>
+<li><b>Rhabdomyolysis after sustained exercise</b>: prolonged or extreme exertion can injure skeletal muscle fibers, releasing <b>myoglobin</b> into blood and then urine; the urine may look red, cola, or tea-colored, and the dipstick may register “blood” even when microscopy shows few or no RBCs because the strip is detecting the heme pigment on myoglobin.</li>
+</ul>
+<p class="note"><b>Red-flag logic</b>: orange urine after Pyridium is usually a medication effect; dark red-brown urine after major exertion raises rhabdomyolysis concern because myoglobin can injure the kidney.</p>
+</details>
+
+<details>
+<summary>Chemical urinalysis</summary>
+<ul>
+<li><b>pH</b>: reflects urinary acidity or alkalinity and can shift with diet, infection type, and acid-base physiology.</li>
+<li><b>Leukocyte esterase</b>: suggests white blood cells in urine.</li>
+<li><b>Nitrites</b>: can suggest nitrate-reducing bacteria in a urinary tract infection.</li>
+<li><b>Protein</b>: points toward glomerular leak or other renal pathology when persistent.</li>
+<li><b>Glucose</b>: appears when plasma glucose exceeds renal reabsorptive capacity or when tubular handling is impaired.</li>
+<li><b>Ketones</b>: suggest fat breakdown states such as fasting or uncontrolled diabetes.</li>
+<li><b>Blood</b>: may reflect intact red cells, hemoglobin, or myoglobin depending on context.</li>
+<li><b>Bilirubin / urobilinogen</b>: more hepatobiliary than urinary in origin, but sometimes useful in the broader interpretation of colored urine and systemic disease.</li>
+</ul>
+</details>
+
+<details>
+<summary>Microscopic urinalysis</summary>
+<ul>
+<li><b>Red blood cells</b>: support hematuria; dysmorphic forms point more toward glomerular sources.</li>
+<li><b>White blood cells</b>: support urinary tract inflammation or infection.</li>
+<li><b>Epithelial cells</b>: can reflect shedding from the urinary tract; large numbers of squamous cells often suggest contamination.</li>
+<li><b>Bacteria</b>: may indicate infection, especially with symptoms and supportive dip findings.</li>
+<li><b>Casts</b>: cylindrical molds formed in tubules; their composition gives clues about intrarenal pathology.</li>
+<li><b>Hyaline casts</b>: nonspecific and can appear with dehydration.</li>
+<li><b>Red blood cell casts</b>: classic clue to glomerulonephritis.</li>
+<li><b>White blood cell casts</b>: suggest intrarenal inflammation such as pyelonephritis or interstitial nephritis.</li>
+<li><b>Granular casts</b>: often associated with tubular injury.</li>
+<li><b>Crystals</b>: may reflect urine chemistry and sometimes stone risk.</li>
+</ul>
+</details>
+
+<details>
+<summary>Blood markers used to judge kidney function</summary>
+<ul>
+<li><b>Creatinine</b>: waste product used as a practical marker of filtration; rises when GFR falls, though timing and muscle mass complicate interpretation.</li>
+<li><b>BUN (blood urea nitrogen)</b>: nitrogen-containing waste marker influenced by renal function, hydration, catabolic state, and other variables.</li>
+<li><b>eGFR</b>: estimated glomerular filtration rate derived from creatinine-based equations; useful for staging chronic kidney disease.</li>
+<li><b>Albumin-to-creatinine ratio</b>: practical way to quantify albuminuria while correcting for urine concentration differences.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>6) Common urinary pathology and exam language</h2>
+<details>
+<summary>Infectious and inflammatory problems</summary>
+<ul>
+<li><b>Cystitis</b>: bladder infection or inflammation causing dysuria, frequency, urgency, and suprapubic discomfort.</li>
+<li><b>Pyelonephritis</b>: infection involving the kidney parenchyma and renal pelvis; typically produces systemic illness more than simple cystitis does.</li>
+<li><b>Urethritis</b>: inflammation of the urethra causing dysuria and irritation, sometimes with discharge depending on cause.</li>
+<li><b>Glomerulonephritis</b>: inflammatory injury centered in the glomerulus, often causing hematuria, proteinuria, edema, and sometimes hypertension or reduced kidney function.</li>
+<li><b>Interstitial nephritis</b>: inflammatory injury in the renal interstitium, often drug-associated or infectious, that can impair renal function.</li>
+</ul>
+</details>
+
+<details>
+<summary>Obstruction, stones, and structural problems</summary>
+<ul>
+<li><b>Nephrolithiasis</b>: stone disease involving the kidney or urinary tract; migrating stones can cause severe colicky pain and hematuria.</li>
+<li><b>Hydronephrosis</b>: dilation of the collecting system because urine outflow is obstructed.</li>
+<li><b>Vesicoureteral reflux</b>: retrograde flow of urine from bladder to ureter/kidney, increasing infection and scarring risk.</li>
+<li><b>Benign prostatic hyperplasia (BPH)</b>: common male outlet obstruction that can lead to hesitancy, weak stream, retention, overflow symptoms, and secondary bladder changes.</li>
+<li><b>Neurogenic bladder</b>: bladder dysfunction caused by neurologic disease or injury, producing abnormal storage, emptying, or both.</li>
+</ul>
+</details>
+
+<details>
+<summary>Acute and chronic kidney injury language</summary>
+<ul>
+<li><b>Acute kidney injury (AKI)</b>: abrupt decline in kidney function over hours to days, reflected by rising creatinine, falling urine output, or both.</li>
+<li><b>Prerenal AKI</b>: reduced kidney perfusion without primary parenchymal destruction at first; common causes include dehydration, hemorrhage, heart failure, and shock.</li>
+<li><b>Intrinsic AKI</b>: injury within the kidney itself, such as acute tubular injury, glomerulonephritis, or interstitial nephritis.</li>
+<li><b>Postrenal AKI</b>: impaired urine outflow causing back pressure and reduced filtration.</li>
+<li><b>Chronic kidney disease (CKD)</b>: persistent structural or functional kidney abnormality, usually defined over months, often progressive and associated with cardiovascular risk, anemia, bone-mineral disturbance, and fluid-electrolyte complications.</li>
+</ul>
+</details>
+
+<details>
+<summary>Clinical clues and red-flag associations</summary>
+<ul>
+<li><b>Simple lower UTI pattern</b>: dysuria + frequency + urgency without flank pain or high fever points more toward cystitis.</li>
+<li><b>Upper tract infection pattern</b>: flank pain, fever, chills, nausea, or costovertebral angle tenderness raises pyelonephritis concern.</li>
+<li><b>Stone pattern</b>: sudden severe waxing-and-waning flank pain radiating toward the groin with hematuria strongly suggests ureteral obstruction by a stone.</li>
+<li><b>Glomerular pattern</b>: edema, hypertension, hematuria, and proteinuria together push glomerular disease higher on the list.</li>
+<li><b>Retention red flags</b>: painful suprapubic fullness with inability to void suggests acute retention and can rapidly become a decompression problem.</li>
+<li><b>Emergency concern</b>: anuria, rapidly rising creatinine, hyperkalemia risk, severe edema, pulmonary congestion, or sepsis physiology around a urinary source all demand escalation.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>7) Procedures and test language</h2>
+<details>
+<summary>Common bedside and clinic terms</summary>
+<ul>
+<li><b>Clean-catch midstream specimen</b>: urine collection method aimed at reducing contamination from the distal urethra and surrounding skin.</li>
+<li><b>Straight catheterization</b>: temporary catheter insertion to drain urine or obtain a sterile specimen.</li>
+<li><b>Foley catheter</b>: indwelling urinary catheter with an inflatable retention balloon.</li>
+<li><b>Post-void residual (PVR)</b>: amount of urine left in the bladder after voiding, often measured by ultrasound or catheterization.</li>
+<li><b>Cystoscopy</b>: endoscopic visualization of the urethra and bladder.</li>
+<li><b>Renal ultrasound</b>: noninvasive imaging commonly used to assess hydronephrosis, kidney size, masses, and bladder emptying.</li>
+<li><b>Dialysis</b>: extracorporeal or peritoneal method used to remove solutes and fluid when native kidney function is insufficient.</li>
+</ul>
+</details>
+
+<details>
+<summary>Why catheter and obstruction language matters</summary>
+<ul>
+<li><b>Catheter-associated UTI risk</b>: catheters bypass natural defenses and provide a surface for bacterial ascent and biofilm formation.</li>
+<li><b>PVR significance</b>: a high residual suggests incomplete emptying, which predisposes to infection, stones, overflow incontinence, and upper tract stress.</li>
+<li><b>Hydronephrosis significance</b>: persistent back pressure can injure renal parenchyma, so obstruction is not merely a plumbing inconvenience.</li>
+</ul>
+</details>
+</section>
+</div>
+
+
+<div aria-label="Nervous notes" class="tab-panel" id="panel-nervous" role="tabpanel">
+<div class="toolbar">
+<button onclick="toggleAll('nervous', true)" type="button">Expand all</button>
+<button onclick="toggleAll('nervous', false)" type="button">Collapse all</button>
+<button id="studyToggle-nervous" type="button">Study mode</button>
+</div>
+<h1>Nervous System – Signal Logic + Structural Map + Clinical Language</h1>
+<div class="sub">This tab moves from map → neuron mechanism → system divisions → clinical vocabulary and pathology, so the anatomy and the symptom language stay tied together.</div>
+
+<section>
+<h2>1) Big map: CNS, PNS, and functional branches</h2>
+<div class="panel-figure">
+<img alt="Nervous system overview showing CNS and PNS with somatic and autonomic divisions" src="assets/img/nervous-system.jpg"/>
+<div class="imgCap">Overview map: central nervous system, peripheral nervous system, and the somatic versus autonomic split.</div>
+</div>
+<details>
+<summary>Central nervous system (CNS) versus peripheral nervous system (PNS)</summary>
+<ul>
+<li><b>Central nervous system (CNS)</b>: brain and spinal cord; the main integration center where sensory input is processed and motor output is organized.</li>
+<li><b>Peripheral nervous system (PNS)</b>: nerves and ganglia outside the CNS; the wiring network that carries sensory information inward and motor instructions outward.</li>
+<li><b>Somatic nervous system</b>: voluntary motor control of skeletal muscle plus conscious somatic sensory input.</li>
+<li><b>Autonomic nervous system (ANS)</b>: involuntary control system regulating smooth muscle, cardiac muscle, glands, and many visceral functions.</li>
+<li><b>Parasympathetic division</b>: promotes maintenance, secretion, digestion, and energy conservation.</li>
+<li><b>Sympathetic division</b>: prepares the body for mobilization, redistributes blood flow, raises cardiac output, and supports the classic fight-or-flight physiology.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: CNS is the command-and-processing center; PNS is the transmission network; autonomic branches set organ tone while the somatic branch drives skeletal muscle.</p>
+</details>
+
+<details>
+<summary>Afferent and efferent: the direction logic</summary>
+<ul>
+<li><b>Afferent</b>: literal meaning “carrying toward”; practical meaning: sensory information traveling toward the CNS.</li>
+<li><b>Efferent</b>: literal meaning “carrying away”; practical meaning: motor output traveling away from the CNS toward effectors.</li>
+<li><b>Sensory receptors</b>: convert physical or chemical stimuli into neural signals.</li>
+<li><b>Effectors</b>: muscles or glands that carry out the final response.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>2) Neuron structure and signal movement</h2>
+<div class="panel-figure">
+<img alt="Neuron structure showing dendrites, cell body, nucleus, axon, myelin, nodes, and axon branches" src="assets/img/neuron-structute.png"/>
+<div class="imgCap">Neuron map: dendrites receive, soma integrates, axon conducts, myelin speeds, terminals deliver.</div>
+</div>
+<details>
+<summary>Parts of a neuron: input zone → integration zone → conduction zone → output zone</summary>
+<ul>
+<li><b>Dendrites</b>: branched receptive processes that receive synaptic input from other neurons.</li>
+<li><b>Cell body / soma</b>: metabolic center housing the nucleus and much of the protein-synthesis machinery.</li>
+<li><b>Axon hillock / initial segment</b>: trigger zone where summed inputs are converted into an action potential if threshold is reached.</li>
+<li><b>Axon</b>: long conducting process that carries the action potential away from the soma.</li>
+<li><b>Myelin sheath</b>: lipid-rich insulating wrap formed by glia; it reduces current leak and increases conduction speed.</li>
+<li><b>Node of Ranvier</b>: gap between myelin segments where voltage-gated channels cluster and the action potential is regenerated.</li>
+<li><b>Axon terminals</b>: output endings that release neurotransmitter onto a target cell.</li>
+</ul>
+</details>
+
+<details>
+<summary>How the signal actually moves</summary>
+<ul>
+<li><b>Resting membrane potential</b>: baseline electrical polarization created by ion gradients and selective membrane permeability.</li>
+<li><b>Depolarization</b>: membrane potential becomes less negative, usually because sodium entry drives the cell toward threshold.</li>
+<li><b>Action potential</b>: all-or-none propagated electrical event traveling down the axon once threshold is reached.</li>
+<li><b>Repolarization</b>: return toward resting negativity, driven largely by potassium efflux and sodium-channel inactivation.</li>
+<li><b>Saltatory conduction</b>: in myelinated axons, the signal is regenerated node to node rather than leaking continuously along the whole membrane, which makes conduction much faster.</li>
+<li><b>Synapse</b>: communication junction where the arriving electrical signal triggers neurotransmitter release and the next cell converts that chemistry back into a response.</li>
+</ul>
+<p class="note"><b>Mechanism idea</b>: neurons are electrochemical translators—electricity carries the signal along the membrane, chemistry hands it off between cells.</p>
+</details>
+
+<details>
+<summary>Major neuron classes</summary>
+<ul>
+<li><b>Sensory neuron</b>: carries incoming information from receptors to the CNS.</li>
+<li><b>Motor neuron</b>: carries outgoing commands from the CNS to muscle or glands.</li>
+<li><b>Interneuron</b>: local processing neuron linking other neurons inside the CNS; essential for reflexes, patterning, and higher integration.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>3) Supporting cells, coverings, and fluid systems</h2>
+<details>
+<summary>Glial cells: the support crew that makes signaling possible</summary>
+<ul>
+<li><b>Astrocytes</b>: metabolic and structural support cells that help regulate extracellular ions, neurotransmitter uptake, and blood-brain barrier function.</li>
+<li><b>Oligodendrocytes</b>: CNS myelinating cells; one oligodendrocyte can myelinate segments of multiple axons.</li>
+<li><b>Schwann cells</b>: PNS myelinating cells; each Schwann cell myelinates one axonal segment.</li>
+<li><b>Microglia</b>: resident immune-effector cells of the CNS.</li>
+<li><b>Ependymal cells</b>: line ventricles and contribute to CSF-related surfaces.</li>
+</ul>
+</details>
+
+<details>
+<summary>Meninges and cerebrospinal fluid</summary>
+<ul>
+<li><b>Dura mater</b>: tough outer meningeal layer.</li>
+<li><b>Arachnoid mater</b>: middle meningeal layer overlying the CSF-filled subarachnoid space.</li>
+<li><b>Pia mater</b>: delicate inner layer tightly applied to the CNS surface.</li>
+<li><b>Cerebrospinal fluid (CSF)</b>: clear fluid cushioning the CNS, helping with buoyancy, mechanical protection, and a controlled extracellular environment.</li>
+<li><b>Ventricles</b>: internal CSF-containing spaces within the brain.</li>
+</ul>
+</details>
+
+<details>
+<summary>Spinal cord layout in exam language</summary>
+<ul>
+<li><b>Gray matter</b>: region enriched in neuronal cell bodies, synapses, and local processing.</li>
+<li><b>White matter</b>: region enriched in myelinated axon tracts carrying signals up and down the cord.</li>
+<li><b>Dorsal root</b>: sensory entry root.</li>
+<li><b>Ventral root</b>: motor exit root.</li>
+<li><b>Dorsal root ganglion</b>: cluster of sensory neuron cell bodies outside the spinal cord.</li>
+<li><b>Reflex arc</b>: rapid input-to-output pathway that can produce a response before higher conscious processing is complete.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>4) Functional language: sensation, movement, and autonomic control</h2>
+<details>
+<summary>Common neurologic symptom vocabulary</summary>
+<ul>
+<li><b>Paresthesia</b>: abnormal sensation such as tingling or pins-and-needles.</li>
+<li><b>Numbness</b>: reduced subjective sensation.</li>
+<li><b>Anesthesia</b>: absence of sensation.</li>
+<li><b>Paresis</b>: weakness with some preserved movement.</li>
+<li><b>Plegia / paralysis</b>: complete loss of voluntary movement in the affected region.</li>
+<li><b>Ataxia</b>: impaired coordination of movement.</li>
+<li><b>Tremor</b>: rhythmic involuntary oscillatory movement.</li>
+<li><b>Seizure</b>: transient episode of abnormal excessive or synchronous neuronal activity.</li>
+<li><b>Syncope</b>: transient loss of consciousness from temporarily reduced cerebral perfusion.</li>
+<li><b>Neuropathy</b>: disease or dysfunction of peripheral nerves.</li>
+<li><b>Radiculopathy</b>: nerve-root dysfunction producing pain, weakness, numbness, or reflex changes in a root distribution.</li>
+<li><b>Aphasia</b>: language impairment from dominant-hemisphere dysfunction.</li>
+<li><b>Dysarthria</b>: impaired motor speech articulation rather than impaired language itself.</li>
+</ul>
+</details>
+
+<details>
+<summary>Autonomic effects that show up clinically</summary>
+<ul>
+<li><b>Sympathetic activation</b>: pupil dilation, faster heart rate, increased contractility, bronchodilation, reduced GI motility, and mobilization of stored fuels.</li>
+<li><b>Parasympathetic activation</b>: pupil constriction, slowed heart rate, increased glandular secretion, increased GI motility, and support of urination and defecation.</li>
+<li><b>Autonomic dysfunction</b>: can present as orthostatic symptoms, abnormal sweating, bowel-bladder dysfunction, or unusual heart-rate and blood-pressure responses.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>5) Common nervous-system pathology and pattern recognition</h2>
+<details>
+<summary>Vascular and electrical problems</summary>
+<ul>
+<li><b>Stroke / cerebrovascular accident (CVA)</b>: abrupt neurologic deficit caused by interrupted blood flow or intracranial bleeding.</li>
+<li><b>Transient ischemic attack (TIA)</b>: transient focal neurologic deficit from temporary ischemia without completed infarction in the classic teaching model.</li>
+<li><b>Hemorrhagic stroke</b>: neurologic injury from bleeding into or around brain tissue.</li>
+<li><b>Epilepsy</b>: disorder characterized by an enduring tendency to have unprovoked seizures.</li>
+</ul>
+</details>
+
+<details>
+<summary>Infectious and inflammatory problems</summary>
+<ul>
+<li><b>Meningitis</b>: inflammation/infection of the meninges, classically associated with headache, fever, neck stiffness, and photophobia.</li>
+<li><b>Encephalitis</b>: inflammatory injury of brain parenchyma, often producing altered mental status, seizures, or focal deficits.</li>
+<li><b>Multiple sclerosis (MS)</b>: immune-mediated CNS demyelinating disease in which conduction slows or fails because myelin integrity is disrupted.</li>
+<li><b>Guillain-Barré syndrome (GBS)</b>: acute peripheral neuropathic process, often post-infectious, producing ascending weakness and reduced reflexes.</li>
+</ul>
+</details>
+
+<details>
+<summary>Degenerative and peripheral disorders</summary>
+<ul>
+<li><b>Parkinson disease</b>: movement disorder centered on basal ganglia dopaminergic dysfunction, classically associated with bradykinesia, rigidity, resting tremor, and postural instability.</li>
+<li><b>Alzheimer disease</b>: neurodegenerative disorder producing progressive cognitive decline, especially memory impairment.</li>
+<li><b>Peripheral neuropathy</b>: diffuse peripheral nerve dysfunction, often length-dependent and commonly associated with diabetes, toxins, or nutritional problems.</li>
+<li><b>Sciatica</b>: radiating pain in the distribution of the sciatic nerve, usually due to lumbosacral nerve-root irritation rather than a primary disease of the peripheral nerve itself.</li>
+</ul>
+</details>
+
+<details>
+<summary>Pattern clues and red flags</summary>
+<ul>
+<li><b>Stroke pattern</b>: sudden facial droop, unilateral weakness, speech change, or visual loss is a time-critical emergency.</li>
+<li><b>Meningitis pattern</b>: fever + severe headache + neck stiffness + photophobia is a dangerous combination.</li>
+<li><b>Raised intracranial pressure concern</b>: worsening headache, vomiting, declining mental status, or pupillary change requires escalation.</li>
+<li><b>Spinal cord compression concern</b>: bilateral weakness, sensory level, gait decline, or new bowel/bladder dysfunction should never be treated casually.</li>
+<li><b>Neuromuscular respiratory concern</b>: progressive weakness with shallow breathing can become an airway/ventilatory emergency.</li>
+</ul>
+</details>
+</section>
+
+<section>
+<h2>6) Procedures, tests, and exam language</h2>
+<details>
+<summary>Common neurologic exam terms</summary>
+<ul>
+<li><b>Mental status exam</b>: assesses orientation, attention, memory, language, and higher cortical function.</li>
+<li><b>Cranial nerve exam</b>: targeted assessment of specialized brainstem-linked sensory and motor functions.</li>
+<li><b>Motor exam</b>: evaluates bulk, tone, strength, involuntary movement, and asymmetry.</li>
+<li><b>Reflexes</b>: probe spinal and descending pathway integrity.</li>
+<li><b>Sensation exam</b>: tests light touch, pain, temperature, vibration, and proprioception.</li>
+<li><b>Coordination and gait</b>: reveal cerebellar, sensory, vestibular, or motor system problems.</li>
+</ul>
+</details>
+
+<details>
+<summary>Common diagnostic tools</summary>
+<ul>
+<li><b>CT head</b>: fast structural imaging often used first in acute stroke and trauma workflows.</li>
+<li><b>MRI brain/spine</b>: high-detail imaging of soft tissues, white matter, cord, and posterior fossa structures.</li>
+<li><b>EEG</b>: electroencephalography; records brain electrical activity and helps assess seizure disorders and encephalopathy patterns.</li>
+<li><b>Lumbar puncture</b>: sampling of CSF for infection, inflammation, hemorrhage clues, or pressure-related evaluation.</li>
+<li><b>EMG / nerve conduction studies</b>: evaluate peripheral nerve and muscle electrical function.</li>
+</ul>
+</details>
+</section>
+</div>
+
 </div>
 <script src="assets/js/app.js"></script>
 </body>
